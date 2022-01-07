@@ -1,0 +1,54 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Number of positive and negative weighted events
+XLabel=$\mathrm{sgn}(w)$
+YLabel=$N_\pm$
+ShowZero=0
+XCustomMajorTicks=-0.5	$w<0$	0.5	$w\geq0$
+XMinorTickMarks=0
+XMin=-1
+XMax=1
+LegendXPos=0.05
+DrawOnly=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_XS:ENERGY=13000/pmN
+LegendOnly=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_XS:ENERGY=13000/pmN
+RatioPlot=1
+RatioPlotReference=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_XS:ENERGY=13000/pmN
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_XS:ENERGY=13000/pmN
+LineColor=red
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_XS:ENERGY=13000/pmN
+ScaledBy=1.00000000000000000e+00
+Title=DY012jNLO_MG273
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.256100e+04	1.120759e+02	1.120759e+02
+0.000000e+00	1.000000e+00	6.382300e+04	2.526321e+02	2.526321e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_XS:ENERGY=13000/pmN
+LineColor=blue
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_XS:ENERGY=13000/pmN
+ScaledBy=1.00000000000000000e+00
+Title=DY012jNLO_MG331_DEFAULT
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.229100e+04	1.108648e+02	1.108648e+02
+0.000000e+00	1.000000e+00	6.156000e+04	2.481129e+02	2.481129e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_XS:ENERGY=13000/pmN
+LineColor=green
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_XS:ENERGY=13000/pmN
+ScaledBy=1.00000000000000000e+00
+Title=DY012jNLO_MG331_OFFPARAMS
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.245400e+04	1.115975e+02	1.115975e+02
+0.000000e+00	1.000000e+00	6.144200e+04	2.478750e+02	2.478750e+02
+# END HISTO1D
+

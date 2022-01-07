@@ -1,0 +1,60 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Exclusive prompt electron multiplicity
+XLabel=$N_{\mathrm{electron}}$
+YLabel=$\sigma(N_{\mathrm{electron}})$ [pb]
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt
+LegendOnly=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt
+RatioPlot=1
+RatioPlotReference=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt
+LineColor=red
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt
+ScaledBy=4.95947501067303236e-06
+Title=DY012jNLO_MG273
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.268317e+03	2.823357e+01	2.823357e+01
+5.000000e-01	1.500000e+00	6.387446e+00	1.194752e+00	1.194752e+00
+1.500000e+00	2.500000e+00	2.140671e+03	1.996376e+01	1.996376e+01
+2.500000e+00	3.500000e+00	1.628173e+00	6.262202e-01	6.262202e-01
+3.500000e+00	4.500000e+00	3.256345e+00	8.116741e-01	8.116741e-01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt
+LineColor=blue
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt
+ScaledBy=4.99814271580614973e-06
+Title=DY012jNLO_MG331_DEFAULT
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.288159e+03	2.903655e+01	2.903655e+01
+5.000000e-01	1.500000e+00	6.284359e+00	1.095390e+00	1.095390e+00
+1.500000e+00	2.500000e+00	2.149513e+03	2.050792e+01	2.050792e+01
+2.500000e+00	3.500000e+00	2.356635e+00	5.554641e-01	5.554641e-01
+3.500000e+00	4.500000e+00	4.189573e+00	8.280371e-01	8.280371e-01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt
+LineColor=green
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_ELECTRONS:ENERGY=13000/electron_multi_exclusive_prompt
+ScaledBy=5.00484987943306266e-06
+Title=DY012jNLO_MG331_OFFPARAMS
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.277264e+03	2.909590e+01	2.909590e+01
+5.000000e-01	1.500000e+00	6.948292e+00	1.236793e+00	1.236793e+00
+1.500000e+00	2.500000e+00	2.131552e+03	2.051325e+01	2.051325e+01
+2.500000e+00	3.500000e+00	2.621997e+00	6.422555e-01	6.422555e-01
+3.500000e+00	4.500000e+00	3.932995e+00	8.696180e-01	8.696180e-01
+# END HISTO1D
+

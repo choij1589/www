@@ -1,0 +1,60 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Exclusive prompt muon multiplicity
+XLabel=$N_{\mathrm{muon}}$
+YLabel=$\sigma(N_{\mathrm{muon}})$ [pb]
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+DrawOnly=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt
+LegendOnly=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt
+RatioPlot=1
+RatioPlotReference=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt
+LineColor=red
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG273.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt
+ScaledBy=4.95947501067303236e-06
+Title=DY012jNLO_MG273
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.269444e+03	2.824107e+01	2.824107e+01
+5.000000e-01	1.500000e+00	1.252440e+00	5.009761e-01	5.009761e-01
+1.500000e+00	2.500000e+00	2.148687e+03	2.000536e+01	2.000536e+01
+2.500000e+00	3.500000e+00	2.504881e-01	1.771218e-01	1.771218e-01
+3.500000e+00	4.500000e+00	6.262203e-01	3.313646e-01	3.313646e-01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt
+LineColor=blue
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_DEFAULT.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt
+ScaledBy=4.99814271580614973e-06
+Title=DY012jNLO_MG331_DEFAULT
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.300466e+03	2.900938e+01	2.900938e+01
+5.000000e-01	1.500000e+00	3.927724e-01	5.706852e-01	5.706852e-01
+1.500000e+00	2.500000e+00	2.148335e+03	2.058676e+01	2.058676e+01
+2.500000e+00	3.500000e+00	3.927724e-01	2.927553e-01	2.927553e-01
+3.500000e+00	4.500000e+00	9.164690e-01	3.463928e-01	3.463928e-01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt
+LineColor=green
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f8f1e2c01c0/DY012jNLO_MG331_OFFPARAMS.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_exclusive_prompt
+ScaledBy=5.00484987943306266e-06
+Title=DY012jNLO_MG331_OFFPARAMS
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.262449e+03	2.903647e+01	2.903647e+01
+5.000000e-01	1.500000e+00	1.310998e+00	5.862963e-01	5.862963e-01
+1.500000e+00	2.500000e+00	2.157248e+03	2.064854e+01	2.064854e+01
+2.500000e+00	3.500000e+00	3.932995e-01	2.931482e-01	2.931482e-01
+3.500000e+00	4.500000e+00	9.176989e-01	3.932995e-01	3.932995e-01
+# END HISTO1D
+
