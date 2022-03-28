@@ -1,0 +1,55 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Number of generated events
+XLabel=
+YLabel=$N$
+XCustomMajorTicks=0.5	$\quad$
+XMinorTickMarks=0
+LegendXPos=0.05
+LegendYPos=0.15
+DrawOnly=//u/user/choij/tmp_0x7f930f83f1c0/DY0j.yoda.gz/MC_XS:ENERGY=13000/N //u/user/choij/tmp_0x7f930f83f1c0/DY1j.yoda.gz/MC_XS:ENERGY=13000/N //u/user/choij/tmp_0x7f930f83f1c0/DY2j.yoda.gz/MC_XS:ENERGY=13000/N //u/user/choij/tmp_0x7f930f83f1c0/DYincl.yoda.gz/MC_XS:ENERGY=13000/N
+LegendOnly=//u/user/choij/tmp_0x7f930f83f1c0/DY0j.yoda.gz/MC_XS:ENERGY=13000/N //u/user/choij/tmp_0x7f930f83f1c0/DY1j.yoda.gz/MC_XS:ENERGY=13000/N //u/user/choij/tmp_0x7f930f83f1c0/DY2j.yoda.gz/MC_XS:ENERGY=13000/N //u/user/choij/tmp_0x7f930f83f1c0/DYincl.yoda.gz/MC_XS:ENERGY=13000/N
+# END PLOT
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f930f83f1c0/DY0j.yoda.gz/MC_XS:ENERGY=13000/N
+LineColor=red
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f930f83f1c0/DY0j.yoda.gz/MC_XS:ENERGY=13000/N
+ScaledBy=1.00000000000000000e+00
+Title=DY0j
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	8.219930e+05	9.066383e+02	9.066383e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f930f83f1c0/DY1j.yoda.gz/MC_XS:ENERGY=13000/N
+LineColor=blue
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f930f83f1c0/DY1j.yoda.gz/MC_XS:ENERGY=13000/N
+Title=DY1j
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.029910e+06	1.014845e+03	1.014845e+03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f930f83f1c0/DY2j.yoda.gz/MC_XS:ENERGY=13000/N
+LineColor=green
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f930f83f1c0/DY2j.yoda.gz/MC_XS:ENERGY=13000/N
+Title=DY2j
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.172820e+06	1.082968e+03	1.082968e+03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f930f83f1c0/DYincl.yoda.gz/MC_XS:ENERGY=13000/N
+LineColor=orange
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f930f83f1c0/DYincl.yoda.gz/MC_XS:ENERGY=13000/N
+ScaledBy=1.00000000000000000e+00
+Title=DYincl
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	3.820530e+05	6.181044e+02	6.181044e+02
+# END HISTO1D
+

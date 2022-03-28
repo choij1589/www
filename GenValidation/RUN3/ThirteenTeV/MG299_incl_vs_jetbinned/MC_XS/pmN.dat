@@ -1,0 +1,61 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Number of positive and negative weighted events
+XLabel=$\mathrm{sgn}(w)$
+YLabel=$N_\pm$
+ShowZero=0
+XCustomMajorTicks=-0.5	$w<0$	0.5	$w\geq0$
+XMinorTickMarks=0
+XMin=-1
+XMax=1
+LegendXPos=0.05
+DrawOnly=//u/user/choij/tmp_0x7f930f83f1c0/DY0j.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f930f83f1c0/DY1j.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f930f83f1c0/DY2j.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f930f83f1c0/DYincl.yoda.gz/MC_XS:ENERGY=13000/pmN
+LegendOnly=//u/user/choij/tmp_0x7f930f83f1c0/DY0j.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f930f83f1c0/DY1j.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f930f83f1c0/DY2j.yoda.gz/MC_XS:ENERGY=13000/pmN //u/user/choij/tmp_0x7f930f83f1c0/DYincl.yoda.gz/MC_XS:ENERGY=13000/pmN
+# END PLOT
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f930f83f1c0/DY0j.yoda.gz/MC_XS:ENERGY=13000/pmN
+LineColor=red
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f930f83f1c0/DY0j.yoda.gz/MC_XS:ENERGY=13000/pmN
+ScaledBy=1.00000000000000000e+00
+Title=DY0j
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	8.228600e+04	2.868554e+02	2.868554e+02
+0.000000e+00	1.000000e+00	7.397070e+05	8.600622e+02	8.600622e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f930f83f1c0/DY1j.yoda.gz/MC_XS:ENERGY=13000/pmN
+LineColor=blue
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f930f83f1c0/DY1j.yoda.gz/MC_XS:ENERGY=13000/pmN
+Title=DY1j
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.370950e+05	3.702634e+02	3.702634e+02
+0.000000e+00	1.000000e+00	8.928150e+05	9.448889e+02	9.448889e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f930f83f1c0/DY2j.yoda.gz/MC_XS:ENERGY=13000/pmN
+LineColor=green
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f930f83f1c0/DY2j.yoda.gz/MC_XS:ENERGY=13000/pmN
+Title=DY2j
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.868100e+05	4.322152e+02	4.322152e+02
+0.000000e+00	1.000000e+00	9.860100e+05	9.929804e+02	9.929804e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f930f83f1c0/DYincl.yoda.gz/MC_XS:ENERGY=13000/pmN
+LineColor=orange
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7f930f83f1c0/DYincl.yoda.gz/MC_XS:ENERGY=13000/pmN
+ScaledBy=1.00000000000000000e+00
+Title=DYincl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	6.309000e+04	2.511772e+02	2.511772e+02
+0.000000e+00	1.000000e+00	3.189630e+05	5.647681e+02	5.647681e+02
+# END HISTO1D
+
