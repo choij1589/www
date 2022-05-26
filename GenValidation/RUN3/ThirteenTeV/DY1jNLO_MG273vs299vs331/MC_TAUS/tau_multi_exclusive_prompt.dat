@@ -7,2216 +7,2078 @@ YLabel=$\sigma(N_{\mathrm{tau}})$ [pb]
 XMajorTickMarks=10
 XMinorTickMarks=0
 ErrorBands=1
-DrawOnly=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
-LegendOnly=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+DrawOnly=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+LegendOnly=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
 RatioPlot=1
-RatioPlotReference=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+RatioPlotReference=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
 RatioPlotYLabel=Ratio
 # END PLOT
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
-ScaledBy=9.90750157539098819e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.316776e+02	3.620142e+00	3.620142e+00
-5.000000e-01	1.500000e+00	5.728537e-04	2.732132e-02	2.732132e-02
-1.500000e+00	2.500000e+00	3.193683e+02	2.559371e+00	2.559371e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.900162e+03	5.126712e+00	5.126712e+00
+5.000000e-01	1.500000e+00	1.812938e-01	4.367616e-02	4.367616e-02
+1.500000e+00	2.500000e+00	9.537647e+02	3.622306e+00	3.622306e+00
+2.500000e+00	3.500000e+00	4.854114e-03	4.854114e-03	4.854114e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
-ScaledBy=9.90735346326721355e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.313832e+02	3.615398e+00	3.615398e+00
-5.000000e-01	1.500000e+00	-6.867579e-05	2.738828e-02	2.738828e-02
-1.500000e+00	2.500000e+00	3.192079e+02	2.556292e+00	2.556292e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898864e+03	5.120064e+00	5.120064e+00
+5.000000e-01	1.500000e+00	1.803156e-01	4.369961e-02	4.369961e-02
+1.500000e+00	2.500000e+00	9.530362e+02	3.617760e+00	3.617760e+00
+2.500000e+00	3.500000e+00	4.829468e-03	4.829468e-03	4.829468e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
-ScaledBy=9.90728990130732144e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.312456e+02	3.614734e+00	3.614734e+00
-5.000000e-01	1.500000e+00	3.484988e-05	2.735107e-02	2.735107e-02
-1.500000e+00	2.500000e+00	3.191641e+02	2.555831e+00	2.555831e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898660e+03	5.119190e+00	5.119190e+00
+5.000000e-01	1.500000e+00	1.794491e-01	4.365431e-02	4.365431e-02
+1.500000e+00	2.500000e+00	9.529874e+02	3.617163e+00	3.617163e+00
+2.500000e+00	3.500000e+00	4.819905e-03	4.819905e-03	4.819905e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
-ScaledBy=9.90819172069613391e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.286002e+02	3.787157e+00	3.787157e+00
-5.000000e-01	1.500000e+00	-7.066780e-04	2.663054e-02	2.663054e-02
-1.500000e+00	2.500000e+00	3.173428e+02	2.680879e+00	2.680879e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.893207e+03	5.366010e+00	5.366010e+00
+5.000000e-01	1.500000e+00	1.739831e-01	4.404124e-02	4.404124e-02
+1.500000e+00	2.500000e+00	9.498228e+02	3.796483e+00	3.796483e+00
+2.500000e+00	3.500000e+00	7.219529e-03	7.219530e-03	7.219530e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
-ScaledBy=9.90723077594788082e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.310853e+02	3.614889e+00	3.614889e+00
-5.000000e-01	1.500000e+00	9.865918e-05	2.732776e-02	2.732776e-02
-1.500000e+00	2.500000e+00	3.191199e+02	2.556018e+00	2.556018e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898478e+03	5.119486e+00	5.119486e+00
+5.000000e-01	1.500000e+00	1.783487e-01	4.362299e-02	4.362299e-02
+1.500000e+00	2.500000e+00	9.529757e+02	3.617477e+00	3.617477e+00
+2.500000e+00	3.500000e+00	4.808363e-03	4.808363e-03	4.808363e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
-ScaledBy=9.90810992147646698e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.329870e+02	3.711521e+00	3.711521e+00
-5.000000e-01	1.500000e+00	-1.612534e-03	2.613625e-02	2.613625e-02
-1.500000e+00	2.500000e+00	3.201633e+02	2.627429e+00	2.627429e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.902327e+03	5.256159e+00	5.256159e+00
+5.000000e-01	1.500000e+00	1.773673e-01	4.431649e-02	4.431649e-02
+1.500000e+00	2.500000e+00	9.543135e+02	3.715988e+00	3.715988e+00
+2.500000e+00	3.500000e+00	3.887031e-03	3.887031e-03	3.887031e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
-ScaledBy=9.90729779596810968e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.308301e+02	3.613136e+00	3.613136e+00
-5.000000e-01	1.500000e+00	-2.378970e-04	2.740388e-02	2.740388e-02
-1.500000e+00	2.500000e+00	3.190824e+02	2.554914e+00	2.554914e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.897632e+03	5.117028e+00	5.117028e+00
+5.000000e-01	1.500000e+00	1.788546e-01	4.363807e-02	4.363807e-02
+1.500000e+00	2.500000e+00	9.526470e+02	3.615799e+00	3.615799e+00
+2.500000e+00	3.500000e+00	4.797257e-03	4.797258e-03	4.797258e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
-ScaledBy=9.90730530041045835e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.312662e+02	3.614909e+00	3.614909e+00
-5.000000e-01	1.500000e+00	-2.731642e-05	2.737308e-02	2.737308e-02
-1.500000e+00	2.500000e+00	3.191747e+02	2.555972e+00	2.555972e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898720e+03	5.119412e+00	5.119412e+00
+5.000000e-01	1.500000e+00	1.795025e-01	4.367313e-02	4.367313e-02
+1.500000e+00	2.500000e+00	9.530215e+02	3.617353e+00	3.617353e+00
+2.500000e+00	3.500000e+00	4.820954e-03	4.820954e-03	4.820954e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
-ScaledBy=9.90925766811030011e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.319027e+02	4.320862e+00	4.320862e+00
-5.000000e-01	1.500000e+00	-5.767127e-03	2.612892e-02	2.612892e-02
-1.500000e+00	2.500000e+00	3.175499e+02	3.050239e+00	3.050239e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.896531e+03	6.110281e+00	6.110281e+00
+5.000000e-01	1.500000e+00	1.494047e-01	4.459793e-02	4.459793e-02
+1.500000e+00	2.500000e+00	9.490066e+02	4.325454e+00	4.325454e+00
+2.500000e+00	3.500000e+00	1.009340e-02	1.009340e-02	1.009340e-02
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
-ScaledBy=9.91140977248571153e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.209410e+02	2.283140e+01	2.283140e+01
-5.000000e-01	1.500000e+00	4.214322e-03	2.433831e-02	2.433831e-02
-1.500000e+00	2.500000e+00	2.846741e+02	1.300875e+01	1.300875e+01
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.870827e+03	3.042136e+01	3.042136e+01
+5.000000e-01	1.500000e+00	3.126723e-01	2.202319e-01	2.202319e-01
+1.500000e+00	2.500000e+00	8.918959e+02	2.344443e+01	2.344443e+01
+2.500000e+00	3.500000e+00	1.334549e-02	1.334548e-02	1.334548e-02
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
-ScaledBy=9.90933295534033185e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.264689e+02	4.762636e+00	4.762636e+00
-5.000000e-01	1.500000e+00	-9.813470e-04	2.671307e-02	2.671307e-02
-1.500000e+00	2.500000e+00	3.137289e+02	3.372419e+00	3.372419e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.888917e+03	6.740944e+00	6.740944e+00
+5.000000e-01	1.500000e+00	1.909885e-01	6.294471e-02	6.294471e-02
+1.500000e+00	2.500000e+00	9.441702e+02	4.811969e+00	4.811969e+00
+2.500000e+00	3.500000e+00	1.041878e-02	1.041878e-02	1.041878e-02
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
-ScaledBy=9.90651937455459283e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.338771e+02	3.739751e+00	3.739751e+00
-5.000000e-01	1.500000e+00	1.022178e-03	2.873812e-02	2.873812e-02
-1.500000e+00	2.500000e+00	3.199925e+02	2.642118e+00	2.642118e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.903870e+03	5.293674e+00	5.293674e+00
+5.000000e-01	1.500000e+00	1.911506e-01	4.694413e-02	4.694413e-02
+1.500000e+00	2.500000e+00	9.550053e+02	3.738010e+00	3.738010e+00
+2.500000e+00	3.500000e+00	3.262729e-03	3.262729e-03	3.262729e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
-ScaledBy=9.90603501190407697e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.363545e+02	4.017403e+00	4.017403e+00
-5.000000e-01	1.500000e+00	1.866515e-03	3.022248e-02	3.022248e-02
-1.500000e+00	2.500000e+00	3.203302e+02	2.836379e+00	2.836379e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.908806e+03	5.683683e+00	5.683683e+00
+5.000000e-01	1.500000e+00	2.026278e-01	5.105001e-02	5.105001e-02
+1.500000e+00	2.500000e+00	9.565848e+02	4.011809e+00	4.011809e+00
+2.500000e+00	3.500000e+00	2.350022e-03	2.350023e-03	2.350023e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
-ScaledBy=9.90545773461036862e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.405778e+02	4.918307e+00	4.918307e+00
-5.000000e-01	1.500000e+00	3.199018e-03	3.243301e-02	3.243301e-02
-1.500000e+00	2.500000e+00	3.202298e+02	3.463438e+00	3.463438e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.916866e+03	6.945596e+00	6.945596e+00
+5.000000e-01	1.500000e+00	2.238320e-01	6.039901e-02	6.039901e-02
+1.500000e+00	2.500000e+00	9.588469e+02	4.900876e+00	4.900876e+00
+2.500000e+00	3.500000e+00	1.289350e-03	1.289350e-03	1.289350e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
-ScaledBy=9.90584606846262094e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.285166e+02	3.906050e+00	3.906050e+00
-5.000000e-01	1.500000e+00	2.616973e-03	2.966046e-02	2.966046e-02
-1.500000e+00	2.500000e+00	3.171098e+02	2.750357e+00	2.750357e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.894302e+03	5.531202e+00	5.531202e+00
+5.000000e-01	1.500000e+00	1.926422e-01	4.804489e-02	4.804489e-02
+1.500000e+00	2.500000e+00	9.504218e+02	3.901673e+00	3.901673e+00
+2.500000e+00	3.500000e+00	6.129399e-03	6.129398e-03	6.129398e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
-ScaledBy=9.90616839371364954e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.320741e+02	3.657859e+00	3.657859e+00
-5.000000e-01	1.500000e+00	-4.538279e-03	2.865101e-02	2.865101e-02
-1.500000e+00	2.500000e+00	3.191817e+02	2.585262e+00	2.585262e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.901088e+03	5.179189e+00	5.179189e+00
+5.000000e-01	1.500000e+00	1.747622e-01	4.485342e-02	4.485342e-02
+1.500000e+00	2.500000e+00	9.533297e+02	3.658131e+00	3.658131e+00
+2.500000e+00	3.500000e+00	5.443024e-03	5.443027e-03	5.443027e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
-ScaledBy=9.90704083869370462e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.306168e+02	3.615879e+00	3.615879e+00
-5.000000e-01	1.500000e+00	1.213426e-03	2.702052e-02	2.702052e-02
-1.500000e+00	2.500000e+00	3.186442e+02	2.557333e+00	2.557333e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.896084e+03	5.120073e+00	5.120073e+00
+5.000000e-01	1.500000e+00	1.788227e-01	4.331198e-02	4.331198e-02
+1.500000e+00	2.500000e+00	9.516505e+02	3.618811e+00	3.618811e+00
+2.500000e+00	3.500000e+00	4.760941e-03	4.760941e-03	4.760941e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
-ScaledBy=9.90730711149625210e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.317094e+02	3.617036e+00	3.617036e+00
-5.000000e-01	1.500000e+00	2.389761e-04	2.732429e-02	2.732429e-02
-1.500000e+00	2.500000e+00	3.192952e+02	2.557283e+00	2.557283e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.899759e+03	5.122345e+00	5.122345e+00
+5.000000e-01	1.500000e+00	1.800896e-01	4.369196e-02	4.369196e-02
+1.500000e+00	2.500000e+00	9.533927e+02	3.619287e+00	3.619287e+00
+2.500000e+00	3.500000e+00	4.843654e-03	4.843654e-03	4.843654e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
-ScaledBy=9.90912449376118270e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.296197e+02	3.689038e+00	3.689038e+00
-5.000000e-01	1.500000e+00	6.691493e-03	2.600813e-02	2.600813e-02
-1.500000e+00	2.500000e+00	3.194643e+02	2.615081e+00	2.615081e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.895064e+03	5.228027e+00	5.228027e+00
+5.000000e-01	1.500000e+00	1.919336e-01	4.451574e-02	4.451574e-02
+1.500000e+00	2.500000e+00	9.527207e+02	3.699096e+00	3.699096e+00
+2.500000e+00	3.500000e+00	3.922665e-03	3.922665e-03	3.922665e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
-ScaledBy=9.90634408394557025e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.338650e+02	3.856505e+00	3.856505e+00
-5.000000e-01	1.500000e+00	1.087941e-02	3.295137e-02	3.295137e-02
-1.500000e+00	2.500000e+00	3.200505e+02	2.719441e+00	2.719441e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.902688e+03	5.457490e+00	5.457490e+00
+5.000000e-01	1.500000e+00	2.112197e-01	5.204429e-02	5.204429e-02
+1.500000e+00	2.500000e+00	9.553274e+02	3.849369e+00	3.849369e+00
+2.500000e+00	3.500000e+00	2.576098e-03	2.576098e-03	2.576098e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
-ScaledBy=9.90710245494603817e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.308295e+02	3.612584e+00	3.612584e+00
-5.000000e-01	1.500000e+00	-5.722986e-04	2.741506e-02	2.741506e-02
-1.500000e+00	2.500000e+00	3.189705e+02	2.554580e+00	2.554580e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.897218e+03	5.116238e+00	5.116238e+00
+5.000000e-01	1.500000e+00	1.776630e-01	4.368219e-02	4.368219e-02
+1.500000e+00	2.500000e+00	9.522523e+02	3.615273e+00	3.615273e+00
+2.500000e+00	3.500000e+00	4.785980e-03	4.785980e-03	4.785980e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
-ScaledBy=9.90753661396952296e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.319061e+02	3.628609e+00	3.628609e+00
-5.000000e-01	1.500000e+00	-1.068452e-03	2.769895e-02	2.769895e-02
-1.500000e+00	2.500000e+00	3.198133e+02	2.565048e+00	2.565048e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.901033e+03	5.139458e+00	5.139458e+00
+5.000000e-01	1.500000e+00	1.802643e-01	4.402240e-02	4.402240e-02
+1.500000e+00	2.500000e+00	9.544301e+02	3.633167e+00	3.633167e+00
+2.500000e+00	3.500000e+00	4.880513e-03	4.880513e-03	4.880513e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
-ScaledBy=9.90792475777289126e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.316302e+02	3.632344e+00	3.632344e+00
-5.000000e-01	1.500000e+00	-1.931064e-04	2.745662e-02	2.745662e-02
-1.500000e+00	2.500000e+00	3.196092e+02	2.567435e+00	2.567435e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.899022e+03	5.144044e+00	5.144044e+00
+5.000000e-01	1.500000e+00	1.815763e-01	4.359214e-02	4.359214e-02
+1.500000e+00	2.500000e+00	9.535136e+02	3.634171e+00	3.634171e+00
+2.500000e+00	3.500000e+00	4.820430e-03	4.820430e-03	4.820430e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
-ScaledBy=9.90726393821659251e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.310992e+02	3.615633e+00	3.615633e+00
-5.000000e-01	1.500000e+00	-1.125644e-04	2.740330e-02	2.740330e-02
-1.500000e+00	2.500000e+00	3.192151e+02	2.556998e+00	2.556998e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898610e+03	5.120757e+00	5.120757e+00
+5.000000e-01	1.500000e+00	1.789980e-01	4.369386e-02	4.369386e-02
+1.500000e+00	2.500000e+00	9.530968e+02	3.618653e+00	3.618653e+00
+2.500000e+00	3.500000e+00	4.820412e-03	4.820412e-03	4.820412e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
-ScaledBy=9.90730351560403755e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.312931e+02	3.614869e+00	3.614869e+00
-5.000000e-01	1.500000e+00	0.000000e+00	-nan	-nan
-1.500000e+00	2.500000e+00	3.192000e+02	2.555849e+00	2.555849e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898579e+03	5.119245e+00	5.119245e+00
+5.000000e-01	1.500000e+00	1.792899e-01	4.363848e-02	4.363848e-02
+1.500000e+00	2.500000e+00	9.530059e+02	3.617190e+00	3.617190e+00
+2.500000e+00	3.500000e+00	4.820425e-03	4.820425e-03	4.820425e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
-ScaledBy=9.90819172069613391e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.286002e+02	3.787157e+00	3.787157e+00
-5.000000e-01	1.500000e+00	-7.066780e-04	2.663054e-02	2.663054e-02
-1.500000e+00	2.500000e+00	3.173428e+02	2.680879e+00	2.680879e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.893207e+03	5.366010e+00	5.366010e+00
+5.000000e-01	1.500000e+00	1.739831e-01	4.404124e-02	4.404124e-02
+1.500000e+00	2.500000e+00	9.498228e+02	3.796483e+00	3.796483e+00
+2.500000e+00	3.500000e+00	7.219529e-03	7.219530e-03	7.219530e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
-ScaledBy=9.90737696770054431e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.315950e+02	3.619109e+00	3.619109e+00
-5.000000e-01	1.500000e+00	2.386816e-04	2.728014e-02	2.728014e-02
-1.500000e+00	2.500000e+00	3.190642e+02	2.557739e+00	2.557739e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898926e+03	5.124684e+00	5.124684e+00
+5.000000e-01	1.500000e+00	1.803218e-01	4.363344e-02	4.363344e-02
+1.500000e+00	2.500000e+00	9.528057e+02	3.620163e+00	3.620163e+00
+2.500000e+00	3.500000e+00	4.820456e-03	4.820455e-03	4.820455e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
-ScaledBy=9.90736839244261655e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.316641e+02	3.641577e+00	3.641577e+00
-5.000000e-01	1.500000e+00	9.286315e-04	2.604527e-02	2.604527e-02
-1.500000e+00	2.500000e+00	3.195312e+02	2.576127e+00	2.576127e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.900030e+03	5.156955e+00	5.156955e+00
+5.000000e-01	1.500000e+00	1.788692e-01	4.255468e-02	4.255468e-02
+1.500000e+00	2.500000e+00	9.537823e+02	3.644739e+00	3.644739e+00
+2.500000e+00	3.500000e+00	4.268652e-03	4.268652e-03	4.268652e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
-ScaledBy=9.90714732453164289e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.305706e+02	3.615200e+00	3.615200e+00
-5.000000e-01	1.500000e+00	1.049107e-04	2.722552e-02	2.722552e-02
-1.500000e+00	2.500000e+00	3.185702e+02	2.556448e+00	2.556448e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.896578e+03	5.120111e+00	5.120111e+00
+5.000000e-01	1.500000e+00	1.783189e-01	4.338359e-02	4.338359e-02
+1.500000e+00	2.500000e+00	9.517652e+02	3.618360e+00	3.618360e+00
+2.500000e+00	3.500000e+00	4.820359e-03	4.820359e-03	4.820359e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
-ScaledBy=9.90729277324870066e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.312172e+02	3.615337e+00	3.615337e+00
-5.000000e-01	1.500000e+00	0.000000e+00	-nan	-nan
-1.500000e+00	2.500000e+00	3.191409e+02	2.556325e+00	2.556325e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898794e+03	5.120130e+00	5.120130e+00
+5.000000e-01	1.500000e+00	1.796604e-01	4.369119e-02	4.369119e-02
+1.500000e+00	2.500000e+00	9.530029e+02	3.617849e+00	3.617849e+00
+2.500000e+00	3.500000e+00	4.820435e-03	4.820436e-03	4.820436e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
-ScaledBy=9.90859344293181631e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.286961e+02	3.987356e+00	3.987356e+00
-5.000000e-01	1.500000e+00	-2.010585e-03	2.123310e-02	2.123310e-02
-1.500000e+00	2.500000e+00	3.194193e+02	2.818422e+00	2.818422e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.894849e+03	5.645331e+00	5.645331e+00
+5.000000e-01	1.500000e+00	1.543745e-01	4.996561e-02	4.996561e-02
+1.500000e+00	2.500000e+00	9.531812e+02	3.990693e+00	3.990693e+00
+2.500000e+00	3.500000e+00	2.737586e-03	2.737586e-03	2.737586e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
-ScaledBy=9.91480717142392368e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.039399e+02	9.859233e+00	9.859233e+00
-5.000000e-01	1.500000e+00	-2.901700e-03	1.337717e-02	1.337717e-02
-1.500000e+00	2.500000e+00	3.141310e+02	6.718682e+00	6.718682e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.854383e+03	1.397517e+01	1.397517e+01
+5.000000e-01	1.500000e+00	1.104582e-01	8.707295e-02	8.707295e-02
+1.500000e+00	2.500000e+00	9.446357e+02	9.467716e+00	9.467716e+00
+2.500000e+00	3.500000e+00	1.205640e-03	1.205640e-03	1.205640e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
-ScaledBy=9.90830972554407646e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.280867e+02	4.173393e+00	4.173393e+00
-5.000000e-01	1.500000e+00	-2.576626e-03	2.155735e-02	2.155735e-02
-1.500000e+00	2.500000e+00	3.176679e+02	2.948426e+00	2.948426e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.892785e+03	5.914814e+00	5.914814e+00
+5.000000e-01	1.500000e+00	1.563720e-01	4.805727e-02	4.805727e-02
+1.500000e+00	2.500000e+00	9.515421e+02	4.186262e+00	4.186262e+00
+2.500000e+00	3.500000e+00	2.619482e-03	2.619482e-03	2.619482e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
-ScaledBy=9.90729042701990834e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.317816e+02	3.660996e+00	3.660996e+00
-5.000000e-01	1.500000e+00	8.742867e-04	2.932672e-02	2.932672e-02
-1.500000e+00	2.500000e+00	3.194830e+02	2.590214e+00	2.590214e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.899956e+03	5.184978e+00	5.184978e+00
+5.000000e-01	1.500000e+00	1.819352e-01	4.444267e-02	4.444267e-02
+1.500000e+00	2.500000e+00	9.535063e+02	3.664203e+00	3.664203e+00
+2.500000e+00	3.500000e+00	5.509226e-03	5.509226e-03	5.509226e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
-ScaledBy=9.90737775899500727e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.320886e+02	3.755392e+00	3.755392e+00
-5.000000e-01	1.500000e+00	1.363239e-03	3.087065e-02	3.087065e-02
-1.500000e+00	2.500000e+00	3.196932e+02	2.658182e+00	2.658182e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.900936e+03	5.318927e+00	5.318927e+00
+5.000000e-01	1.500000e+00	1.827257e-01	4.539288e-02	4.539288e-02
+1.500000e+00	2.500000e+00	9.538946e+02	3.759419e+00	3.759419e+00
+2.500000e+00	3.500000e+00	6.013794e-03	6.013794e-03	6.013794e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
-ScaledBy=9.90751670731876407e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.324177e+02	3.984112e+00	3.984112e+00
-5.000000e-01	1.500000e+00	1.578347e-03	3.298398e-02	3.298398e-02
-1.500000e+00	2.500000e+00	3.199815e+02	2.821745e+00	2.821745e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.902523e+03	5.643015e+00	5.643015e+00
+5.000000e-01	1.500000e+00	1.815342e-01	4.702405e-02	4.702405e-02
+1.500000e+00	2.500000e+00	9.544815e+02	3.989893e+00	3.989893e+00
+2.500000e+00	3.500000e+00	6.460458e-03	6.460460e-03	6.460460e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
-ScaledBy=9.90695535810045454e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.302800e+02	3.699088e+00	3.699088e+00
-5.000000e-01	1.500000e+00	-2.153314e-03	2.966430e-02	2.966430e-02
-1.500000e+00	2.500000e+00	3.187717e+02	2.614578e+00	2.614578e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.896178e+03	5.238403e+00	5.238403e+00
+5.000000e-01	1.500000e+00	1.825158e-01	4.723759e-02	4.723759e-02
+1.500000e+00	2.500000e+00	9.519461e+02	3.702013e+00	3.702013e+00
+2.500000e+00	3.500000e+00	5.518089e-03	5.518088e-03	5.518088e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
-ScaledBy=9.90741113732436646e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.310493e+02	3.638911e+00	3.638911e+00
-5.000000e-01	1.500000e+00	-1.189921e-03	2.833233e-02	2.833233e-02
-1.500000e+00	2.500000e+00	3.195938e+02	2.573259e+00	2.573259e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898422e+03	5.152494e+00	5.152494e+00
+5.000000e-01	1.500000e+00	1.788569e-01	4.431333e-02	4.431333e-02
+1.500000e+00	2.500000e+00	9.531204e+02	3.640236e+00	3.640236e+00
+2.500000e+00	3.500000e+00	5.264361e-03	5.264361e-03	5.264361e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
-ScaledBy=9.90738878259701039e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.317703e+02	3.658654e+00	3.658654e+00
-5.000000e-01	1.500000e+00	2.096721e-04	2.728431e-02	2.728431e-02
-1.500000e+00	2.500000e+00	3.188242e+02	2.587811e+00	2.587811e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898184e+03	5.183357e+00	5.183357e+00
+5.000000e-01	1.500000e+00	1.790150e-01	4.338928e-02	4.338928e-02
+1.500000e+00	2.500000e+00	9.526372e+02	3.662204e+00	3.662204e+00
+2.500000e+00	3.500000e+00	4.820378e-03	4.820378e-03	4.820378e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
-ScaledBy=9.90743288816370148e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.319508e+02	3.623124e+00	3.623124e+00
-5.000000e-01	1.500000e+00	-1.064831e-04	2.750320e-02	2.750320e-02
-1.500000e+00	2.500000e+00	3.197730e+02	2.561802e+00	2.561802e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.900828e+03	5.130915e+00	5.130915e+00
+5.000000e-01	1.500000e+00	1.806449e-01	4.395250e-02	4.395250e-02
+1.500000e+00	2.500000e+00	9.542364e+02	3.625317e+00	3.625317e+00
+2.500000e+00	3.500000e+00	4.820500e-03	4.820500e-03	4.820500e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
-ScaledBy=9.90698583798497052e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.316217e+02	3.691272e+00	3.691272e+00
-5.000000e-01	1.500000e+00	1.960384e-03	2.570018e-02	2.570018e-02
-1.500000e+00	2.500000e+00	3.183090e+02	2.607453e+00	2.607453e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.899341e+03	5.230619e+00	5.230619e+00
+5.000000e-01	1.500000e+00	1.797244e-01	4.309360e-02	4.309360e-02
+1.500000e+00	2.500000e+00	9.528869e+02	3.695692e+00	3.695692e+00
+2.500000e+00	3.500000e+00	4.029511e-03	4.029511e-03	4.029511e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
-ScaledBy=9.90701876952819236e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.320700e+02	3.701560e+00	3.701560e+00
-5.000000e-01	1.500000e+00	2.105691e-03	3.134393e-02	3.134393e-02
-1.500000e+00	2.500000e+00	3.189619e+02	2.618594e+00	2.618594e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.899842e+03	5.243681e+00	5.243681e+00
+5.000000e-01	1.500000e+00	1.866915e-01	4.650047e-02	4.650047e-02
+1.500000e+00	2.500000e+00	9.530312e+02	3.705675e+00	3.705675e+00
+2.500000e+00	3.500000e+00	6.218519e-03	6.218521e-03	6.218521e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
-ScaledBy=9.90682354547342358e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.309400e+02	3.627230e+00	3.627230e+00
-5.000000e-01	1.500000e+00	1.930800e-04	2.727147e-02	2.727147e-02
-1.500000e+00	2.500000e+00	3.187540e+02	2.566612e+00	2.566612e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898322e+03	5.136797e+00	5.136797e+00
+5.000000e-01	1.500000e+00	1.772036e-01	4.400642e-02	4.400642e-02
+1.500000e+00	2.500000e+00	9.524991e+02	3.631200e+00	3.631200e+00
+2.500000e+00	3.500000e+00	4.820415e-03	4.820415e-03	4.820415e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
-ScaledBy=9.90720715713721575e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.304319e+02	3.673279e+00	3.673279e+00
-5.000000e-01	1.500000e+00	-2.096672e-04	2.744397e-02	2.744397e-02
-1.500000e+00	2.500000e+00	3.195660e+02	2.597649e+00	2.597649e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898917e+03	5.200816e+00	5.200816e+00
+5.000000e-01	1.500000e+00	1.800305e-01	4.399523e-02	4.399523e-02
+1.500000e+00	2.500000e+00	9.534597e+02	3.675086e+00	3.675086e+00
+2.500000e+00	3.500000e+00	4.820485e-03	4.820484e-03	4.820484e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
 ErrorBars=1
 LineColor=red!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
-ScaledBy=9.90755496704861888e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.302652e+02	3.692139e+00	3.692139e+00
-5.000000e-01	1.500000e+00	-1.119713e-03	2.487231e-02	2.487231e-02
-1.500000e+00	2.500000e+00	3.186566e+02	2.608463e+00	2.608463e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.896760e+03	5.228838e+00	5.228838e+00
+5.000000e-01	1.500000e+00	1.732914e-01	4.373759e-02	4.373759e-02
+1.500000e+00	2.500000e+00	9.524063e+02	3.694852e+00	3.694852e+00
+2.500000e+00	3.500000e+00	3.942357e-03	3.942357e-03	3.942357e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
 ErrorBars=1
 LineColor=red
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
-ScaledBy=9.90729745954545893e-07
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG273.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
 Title=MG273
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.312559e+02	3.614817e+00	3.614817e+00
-5.000000e-01	1.500000e+00	0.000000e+00	-nan	-nan
-1.500000e+00	2.500000e+00	3.191688e+02	2.555897e+00	2.555897e+00
-2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+-5.000000e-01	5.000000e-01	1.898690e+03	5.119291e+00	5.119291e+00
+5.000000e-01	1.500000e+00	1.794738e-01	4.366445e-02	4.366445e-02
+1.500000e+00	2.500000e+00	9.530043e+02	3.617252e+00	3.617252e+00
+2.500000e+00	3.500000e+00	4.820430e-03	4.820429e-03	4.820429e-03
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
-ScaledBy=1.00627659815972207e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.364990e+02	3.637051e+00	3.637051e+00
-5.000000e-01	1.500000e+00	8.760090e-02	3.232972e-02	3.232972e-02
-1.500000e+00	2.500000e+00	3.235047e+02	2.574611e+00	2.574611e+00
+-5.000000e-01	5.000000e-01	1.916771e+03	5.158286e+00	5.158286e+00
+5.000000e-01	1.500000e+00	2.251569e-01	4.687738e-02	4.687738e-02
+1.500000e+00	2.500000e+00	9.614660e+02	3.647381e+00	3.647381e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	5.256041e-03	5.256042e-03	5.256042e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
-ScaledBy=1.00627104343450640e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.361740e+02	3.632690e+00	3.632690e+00
-5.000000e-01	1.500000e+00	8.791017e-02	3.239106e-02	3.239106e-02
-1.500000e+00	2.500000e+00	3.232007e+02	2.571437e+00	2.571437e+00
+-5.000000e-01	5.000000e-01	1.915485e+03	5.151937e+00	5.151937e+00
+5.000000e-01	1.500000e+00	2.252093e-01	4.695961e-02	4.695961e-02
+1.500000e+00	2.500000e+00	9.607756e+02	3.642827e+00	3.642827e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.849226e-03	4.849226e-03	4.849226e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
-ScaledBy=1.00627171185031942e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.360285e+02	3.631951e+00	3.631951e+00
-5.000000e-01	1.500000e+00	8.782598e-02	3.236554e-02	3.236554e-02
-1.500000e+00	2.500000e+00	3.231775e+02	2.570817e+00	2.570817e+00
+-5.000000e-01	5.000000e-01	1.915197e+03	5.150929e+00	5.150929e+00
+5.000000e-01	1.500000e+00	2.251231e-01	4.688587e-02	4.688587e-02
+1.500000e+00	2.500000e+00	9.606748e+02	3.642076e+00	3.642076e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.833259e-03	4.833259e-03	4.833259e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
-ScaledBy=1.00621916405832124e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.317068e+02	3.806174e+00	3.806174e+00
-5.000000e-01	1.500000e+00	8.847952e-02	3.266368e-02	3.266368e-02
-1.500000e+00	2.500000e+00	3.229042e+02	2.698450e+00	2.698450e+00
+-5.000000e-01	5.000000e-01	1.904982e+03	5.399486e+00	5.399486e+00
+5.000000e-01	1.500000e+00	2.300424e-01	4.777235e-02	4.777235e-02
+1.500000e+00	2.500000e+00	9.603392e+02	3.821730e+00	3.821730e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	1.464354e-03	1.464354e-03	1.464354e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
-ScaledBy=1.00627342509182140e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.358650e+02	3.631995e+00	3.631995e+00
-5.000000e-01	1.500000e+00	8.772555e-02	3.233514e-02	3.233514e-02
-1.500000e+00	2.500000e+00	3.231624e+02	2.570781e+00	2.570781e+00
+-5.000000e-01	5.000000e-01	1.914935e+03	5.151038e+00	5.151038e+00
+5.000000e-01	1.500000e+00	2.250229e-01	4.679946e-02	4.679946e-02
+1.500000e+00	2.500000e+00	9.605684e+02	3.642130e+00	3.642130e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.822688e-03	4.822688e-03	4.822688e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
-ScaledBy=1.00625710100556472e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.383469e+02	3.733839e+00	3.733839e+00
-5.000000e-01	1.500000e+00	8.091295e-02	3.206559e-02	3.206559e-02
-1.500000e+00	2.500000e+00	3.235654e+02	2.637327e+00	2.637327e+00
+-5.000000e-01	5.000000e-01	1.919237e+03	5.293288e+00	5.293288e+00
+5.000000e-01	1.500000e+00	2.176056e-01	4.641433e-02	4.641433e-02
+1.500000e+00	2.500000e+00	9.599570e+02	3.736894e+00	3.736894e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	9.165809e-03	9.165809e-03	9.165809e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
-ScaledBy=1.00627362912173976e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.357436e+02	3.630398e+00	3.630398e+00
-5.000000e-01	1.500000e+00	8.782454e-02	3.231204e-02	3.231204e-02
-1.500000e+00	2.500000e+00	3.229983e+02	2.569749e+00	2.569749e+00
+-5.000000e-01	5.000000e-01	1.914340e+03	5.148757e+00	5.148757e+00
+5.000000e-01	1.500000e+00	2.251253e-01	4.684246e-02	4.684246e-02
+1.500000e+00	2.500000e+00	9.601539e+02	3.640508e+00	3.640508e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.756012e-03	4.756012e-03	4.756012e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
-ScaledBy=1.00627202822856270e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.360601e+02	3.632136e+00	3.632136e+00
-5.000000e-01	1.500000e+00	8.783907e-02	3.236948e-02	3.236948e-02
-1.500000e+00	2.500000e+00	3.231918e+02	2.571001e+00	2.571001e+00
+-5.000000e-01	5.000000e-01	1.915303e+03	5.151190e+00	5.151190e+00
+5.000000e-01	1.500000e+00	2.251458e-01	4.689595e-02	4.689595e-02
+1.500000e+00	2.500000e+00	9.607071e+02	3.642289e+00	3.642289e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.842196e-03	4.842196e-03	4.842196e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
-ScaledBy=1.00613255800417072e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.307217e+02	4.345026e+00	4.345026e+00
-5.000000e-01	1.500000e+00	8.075425e-02	3.332418e-02	3.332418e-02
-1.500000e+00	2.500000e+00	3.229639e+02	3.066645e+00	3.066645e+00
+-5.000000e-01	5.000000e-01	1.899955e+03	6.163483e+00	6.163483e+00
+5.000000e-01	1.500000e+00	2.279209e-01	4.994772e-02	4.994772e-02
+1.500000e+00	2.500000e+00	9.592971e+02	4.343314e+00	4.343314e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	1.068094e-03	1.068094e-03	1.068094e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
-ScaledBy=1.00317922908862540e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	5.999517e+02	2.357324e+01	2.357324e+01
-5.000000e-01	1.500000e+00	4.475106e-02	2.533090e-02	2.533090e-02
-1.500000e+00	2.500000e+00	3.037620e+02	3.138058e+01	3.138058e+01
+-5.000000e-01	5.000000e-01	1.813497e+03	3.289036e+01	3.289036e+01
+5.000000e-01	1.500000e+00	1.670236e-01	5.638894e-02	5.638894e-02
+1.500000e+00	2.500000e+00	9.120734e+02	3.369619e+01	3.369619e+01
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	8.467233e-07	8.467234e-07	8.467234e-07
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
-ScaledBy=1.00591979941717422e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.250156e+02	4.763302e+00	4.763302e+00
-5.000000e-01	1.500000e+00	8.383806e-02	3.246480e-02	3.246480e-02
-1.500000e+00	2.500000e+00	3.233609e+02	3.415018e+00	3.415018e+00
+-5.000000e-01	5.000000e-01	1.890473e+03	6.774296e+00	6.774296e+00
+5.000000e-01	1.500000e+00	2.293503e-01	5.096902e-02	5.096902e-02
+1.500000e+00	2.500000e+00	9.599865e+02	4.805766e+00	4.805766e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	2.545701e-04	2.545701e-04	2.545701e-04
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
-ScaledBy=1.00619913674886039e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.391891e+02	3.753600e+00	3.753600e+00
-5.000000e-01	1.500000e+00	8.513145e-02	3.306885e-02	3.306885e-02
-1.500000e+00	2.500000e+00	3.237000e+02	2.656829e+00	2.656829e+00
+-5.000000e-01	5.000000e-01	1.923157e+03	5.325570e+00	5.325570e+00
+5.000000e-01	1.500000e+00	2.181523e-01	4.754940e-02	4.754940e-02
+1.500000e+00	2.500000e+00	9.610284e+02	3.763741e+00	3.763741e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	1.125596e-02	1.125596e-02	1.125596e-02
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
-ScaledBy=1.00606378193899743e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.415492e+02	4.026253e+00	4.026253e+00
-5.000000e-01	1.500000e+00	8.114554e-02	3.433900e-02	3.433900e-02
-1.500000e+00	2.500000e+00	3.241970e+02	2.850714e+00	2.850714e+00
+-5.000000e-01	5.000000e-01	1.929491e+03	5.716755e+00	5.716755e+00
+5.000000e-01	1.500000e+00	2.104578e-01	4.883029e-02	4.883029e-02
+1.500000e+00	2.500000e+00	9.613792e+02	4.038658e+00	4.038658e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	2.084782e-02	2.084782e-02	2.084782e-02
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
-ScaledBy=1.00570333493947451e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.448248e+02	4.917167e+00	4.917167e+00
-5.000000e-01	1.500000e+00	7.281829e-02	3.726210e-02	3.726210e-02
-1.500000e+00	2.500000e+00	3.249226e+02	3.473534e+00	3.473534e+00
+-5.000000e-01	5.000000e-01	1.938534e+03	6.997050e+00	6.997050e+00
+5.000000e-01	1.500000e+00	1.948122e-01	5.177321e-02	5.177321e-02
+1.500000e+00	2.500000e+00	9.612195e+02	4.924425e+00	4.924425e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.910887e-02	4.910887e-02	4.910887e-02
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
-ScaledBy=1.00628499437648094e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.332237e+02	3.917717e+00	3.917717e+00
-5.000000e-01	1.500000e+00	1.020234e-01	3.809795e-02	3.809795e-02
-1.500000e+00	2.500000e+00	3.226115e+02	2.781604e+00	2.781604e+00
+-5.000000e-01	5.000000e-01	1.909735e+03	5.556646e+00	5.556646e+00
+5.000000e-01	1.500000e+00	2.356990e-01	5.276951e-02	5.276951e-02
+1.500000e+00	2.500000e+00	9.617488e+02	3.938882e+00	3.938882e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	1.513015e-03	1.513015e-03	1.513015e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
-ScaledBy=1.00632968122772544e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.367618e+02	3.672597e+00	3.672597e+00
-5.000000e-01	1.500000e+00	9.237497e-02	3.449822e-02	3.449822e-02
-1.500000e+00	2.500000e+00	3.235849e+02	2.598766e+00	2.598766e+00
+-5.000000e-01	5.000000e-01	1.917193e+03	5.209784e+00	5.209784e+00
+5.000000e-01	1.500000e+00	2.257593e-01	4.829004e-02	4.829004e-02
+1.500000e+00	2.500000e+00	9.618603e+02	3.682968e+00	3.682968e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	5.604339e-03	5.604339e-03	5.604339e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
-ScaledBy=1.00626765335314464e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.347783e+02	3.631270e+00	3.631270e+00
-5.000000e-01	1.500000e+00	8.751462e-02	3.226469e-02	3.226469e-02
-1.500000e+00	2.500000e+00	3.227093e+02	2.571556e+00	2.571556e+00
+-5.000000e-01	5.000000e-01	1.912006e+03	5.150845e+00	5.150845e+00
+5.000000e-01	1.500000e+00	2.283119e-01	4.729370e-02	4.729370e-02
+1.500000e+00	2.500000e+00	9.594313e+02	3.642716e+00	3.642716e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.588969e-03	4.588969e-03	4.588969e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
-ScaledBy=1.00626761352462547e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.363503e+02	3.634208e+00	3.634208e+00
-5.000000e-01	1.500000e+00	8.784044e-02	3.242371e-02	3.242371e-02
-1.500000e+00	2.500000e+00	3.233685e+02	2.572505e+00	2.572505e+00
+-5.000000e-01	5.000000e-01	1.916112e+03	5.154149e+00	5.154149e+00
+5.000000e-01	1.500000e+00	2.251414e-01	4.694099e-02	4.694099e-02
+1.500000e+00	2.500000e+00	9.611884e+02	3.644463e+00	3.644463e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.920710e-03	4.920710e-03	4.920710e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
-ScaledBy=1.00616667936200763e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.347321e+02	3.709334e+00	3.709334e+00
-5.000000e-01	1.500000e+00	8.133971e-02	2.969202e-02	2.969202e-02
-1.500000e+00	2.500000e+00	3.223673e+02	2.625065e+00	2.625065e+00
+-5.000000e-01	5.000000e-01	1.912831e+03	5.261811e+00	5.261811e+00
+5.000000e-01	1.500000e+00	2.232750e-01	4.552622e-02	4.552622e-02
+1.500000e+00	2.500000e+00	9.590470e+02	3.720161e+00	3.720161e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	3.697923e-03	3.697924e-03	3.697924e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
-ScaledBy=1.00609589760203378e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.387328e+02	3.865271e+00	3.865271e+00
-5.000000e-01	1.500000e+00	8.367714e-02	3.194159e-02	3.194159e-02
-1.500000e+00	2.500000e+00	3.232628e+02	2.742071e+00	2.742071e+00
+-5.000000e-01	5.000000e-01	1.923660e+03	5.485966e+00	5.485966e+00
+5.000000e-01	1.500000e+00	2.184596e-01	4.810427e-02	4.810427e-02
+1.500000e+00	2.500000e+00	9.608112e+02	3.882294e+00	3.882294e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	9.475364e-03	9.475364e-03	9.475364e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
-ScaledBy=1.00626707374555532e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.355780e+02	3.630085e+00	3.630085e+00
-5.000000e-01	1.500000e+00	8.804259e-02	3.240235e-02	3.240235e-02
-1.500000e+00	2.500000e+00	3.228619e+02	2.569406e+00	2.569406e+00
+-5.000000e-01	5.000000e-01	1.913731e+03	5.148195e+00	5.148195e+00
+5.000000e-01	1.500000e+00	2.250608e-01	4.690637e-02	4.690637e-02
+1.500000e+00	2.500000e+00	9.599106e+02	3.640065e+00	3.640065e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.451542e-03	4.451541e-03	4.451541e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
-ScaledBy=1.00624989457300417e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.368954e+02	3.651482e+00	3.651482e+00
-5.000000e-01	1.500000e+00	8.814824e-02	3.247045e-02	3.247045e-02
-1.500000e+00	2.500000e+00	3.235824e+02	2.579729e+00	2.579729e+00
+-5.000000e-01	5.000000e-01	1.918133e+03	5.177489e+00	5.177489e+00
+5.000000e-01	1.500000e+00	2.224243e-01	4.677147e-02	4.677147e-02
+1.500000e+00	2.500000e+00	9.618392e+02	3.663176e+00	3.663176e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	5.095151e-03	5.095149e-03	5.095149e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
-ScaledBy=1.00623529720000844e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.371007e+02	3.649533e+00	3.649533e+00
-5.000000e-01	1.500000e+00	8.339549e-02	3.133205e-02	3.133205e-02
-1.500000e+00	2.500000e+00	3.230154e+02	2.583091e+00	2.583091e+00
+-5.000000e-01	5.000000e-01	1.916600e+03	5.175498e+00	5.175498e+00
+5.000000e-01	1.500000e+00	2.169293e-01	4.603958e-02	4.603958e-02
+1.500000e+00	2.500000e+00	9.605649e+02	3.659721e+00	3.659721e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.904325e-03	4.904325e-03	4.904325e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
-ScaledBy=1.00628580111857472e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.360010e+02	3.632915e+00	3.632915e+00
-5.000000e-01	1.500000e+00	8.783374e-02	3.236795e-02	3.236795e-02
-1.500000e+00	2.500000e+00	3.232531e+02	2.571831e+00	2.571831e+00
+-5.000000e-01	5.000000e-01	1.915154e+03	5.152314e+00	5.152314e+00
+5.000000e-01	1.500000e+00	2.247197e-01	4.691012e-02	4.691012e-02
+1.500000e+00	2.500000e+00	9.607049e+02	3.643416e+00	3.643416e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.837684e-03	4.837683e-03	4.837683e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
-ScaledBy=1.00627226338834690e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.360435e+02	3.631964e+00	3.631964e+00
-5.000000e-01	1.500000e+00	8.783256e-02	3.236751e-02	3.236751e-02
-1.500000e+00	2.500000e+00	3.231502e+02	2.571016e+00	2.571016e+00
+-5.000000e-01	5.000000e-01	1.915183e+03	5.151004e+00	5.151004e+00
+5.000000e-01	1.500000e+00	2.252303e-01	4.689065e-02	4.689065e-02
+1.500000e+00	2.500000e+00	9.606016e+02	3.642280e+00	3.642280e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.837747e-03	4.837746e-03	4.837746e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
-ScaledBy=1.00621916405832124e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.317068e+02	3.806174e+00	3.806174e+00
-5.000000e-01	1.500000e+00	8.847952e-02	3.266368e-02	3.266368e-02
-1.500000e+00	2.500000e+00	3.229042e+02	2.698450e+00	2.698450e+00
+-5.000000e-01	5.000000e-01	1.904982e+03	5.399486e+00	5.399486e+00
+5.000000e-01	1.500000e+00	2.300424e-01	4.777235e-02	4.777235e-02
+1.500000e+00	2.500000e+00	9.603392e+02	3.821730e+00	3.821730e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	1.464354e-03	1.464354e-03	1.464354e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
-ScaledBy=1.00625082335299211e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.361018e+02	3.635877e+00	3.635877e+00
-5.000000e-01	1.500000e+00	8.783069e-02	3.236682e-02	3.236682e-02
-1.500000e+00	2.500000e+00	3.230614e+02	2.573158e+00	2.573158e+00
+-5.000000e-01	5.000000e-01	1.915435e+03	5.156537e+00	5.156537e+00
+5.000000e-01	1.500000e+00	2.256016e-01	4.684241e-02	4.684241e-02
+1.500000e+00	2.500000e+00	9.606977e+02	3.645475e+00	3.645475e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.837794e-03	4.837793e-03	4.837793e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
-ScaledBy=1.00623165618391018e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.361639e+02	3.659514e+00	3.659514e+00
-5.000000e-01	1.500000e+00	9.188407e-02	3.382774e-02	3.382774e-02
-1.500000e+00	2.500000e+00	3.229895e+02	2.589802e+00	2.589802e+00
+-5.000000e-01	5.000000e-01	1.916208e+03	5.189933e+00	5.189933e+00
+5.000000e-01	1.500000e+00	2.306943e-01	4.852884e-02	4.852884e-02
+1.500000e+00	2.500000e+00	9.611138e+02	3.668670e+00	3.668670e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.092236e-03	4.092235e-03	4.092235e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
-ScaledBy=1.00628569721789510e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.356068e+02	3.633427e+00	3.633427e+00
-5.000000e-01	1.500000e+00	8.709989e-02	3.214892e-02	3.214892e-02
-1.500000e+00	2.500000e+00	3.227532e+02	2.572372e+00	2.572372e+00
+-5.000000e-01	5.000000e-01	1.913995e+03	5.153454e+00	5.153454e+00
+5.000000e-01	1.500000e+00	2.220077e-01	4.644166e-02	4.644166e-02
+1.500000e+00	2.500000e+00	9.596657e+02	3.643782e+00	3.643782e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.787549e-03	4.787548e-03	4.787548e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
-ScaledBy=1.00627351566228571e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.360574e+02	3.632671e+00	3.632671e+00
-5.000000e-01	1.500000e+00	8.783267e-02	3.236756e-02	3.236756e-02
-1.500000e+00	2.500000e+00	3.232169e+02	2.571196e+00	2.571196e+00
+-5.000000e-01	5.000000e-01	1.915328e+03	5.151876e+00	5.151876e+00
+5.000000e-01	1.500000e+00	2.250386e-01	4.689135e-02	4.689135e-02
+1.500000e+00	2.500000e+00	9.607832e+02	3.642647e+00	3.642647e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.837707e-03	4.837707e-03	4.837707e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
-ScaledBy=1.00619907878907264e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.319611e+02	4.002296e+00	4.002296e+00
-5.000000e-01	1.500000e+00	8.861855e-02	3.276049e-02	3.276049e-02
-1.500000e+00	2.500000e+00	3.241489e+02	2.846506e+00	2.846506e+00
+-5.000000e-01	5.000000e-01	1.906753e+03	5.681098e+00	5.681098e+00
+5.000000e-01	1.500000e+00	2.345304e-01	5.151103e-02	5.151103e-02
+1.500000e+00	2.500000e+00	9.609619e+02	4.023713e+00	4.023713e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	3.986861e-03	3.986861e-03	3.986861e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
-ScaledBy=1.00627224059669394e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.242706e+02	1.026096e+01	1.026096e+01
-5.000000e-01	1.500000e+00	3.696241e-02	1.810612e-02	1.810612e-02
-1.500000e+00	2.500000e+00	3.200570e+02	6.553099e+00	6.553099e+00
+-5.000000e-01	5.000000e-01	1.882365e+03	1.536763e+01	1.536763e+01
+5.000000e-01	1.500000e+00	1.259250e-01	5.342953e-02	5.342953e-02
+1.500000e+00	2.500000e+00	9.464571e+02	9.528913e+00	9.528913e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	1.118794e-03	1.118794e-03	1.118794e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
-ScaledBy=1.00633980202347231e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.339163e+02	4.204573e+00	4.204573e+00
-5.000000e-01	1.500000e+00	7.053117e-02	2.820326e-02	2.820326e-02
-1.500000e+00	2.500000e+00	3.228312e+02	2.970211e+00	2.970211e+00
+-5.000000e-01	5.000000e-01	1.908831e+03	5.962037e+00	5.962037e+00
+5.000000e-01	1.500000e+00	1.936217e-01	4.770069e-02	4.770069e-02
+1.500000e+00	2.500000e+00	9.590446e+02	4.212758e+00	4.212758e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.494623e-03	4.494623e-03	4.494623e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
-ScaledBy=1.00630922832673663e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.370138e+02	3.681956e+00	3.681956e+00
-5.000000e-01	1.500000e+00	9.171840e-02	3.364659e-02	3.364659e-02
-1.500000e+00	2.500000e+00	3.233750e+02	2.602977e+00	2.602977e+00
+-5.000000e-01	5.000000e-01	1.917887e+03	5.219904e+00	5.219904e+00
+5.000000e-01	1.500000e+00	2.324086e-01	4.752233e-02	4.752233e-02
+1.500000e+00	2.500000e+00	9.611926e+02	3.688570e+00	3.688570e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.590253e-03	4.590253e-03	4.590253e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
-ScaledBy=1.00635559182989214e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.379287e+02	3.780431e+00	3.780431e+00
-5.000000e-01	1.500000e+00	9.417599e-02	3.476445e-02	3.476445e-02
-1.500000e+00	2.500000e+00	3.235931e+02	2.669550e+00	2.669550e+00
+-5.000000e-01	5.000000e-01	1.920306e+03	5.357715e+00	5.357715e+00
+5.000000e-01	1.500000e+00	2.368873e-01	4.842767e-02	4.842767e-02
+1.500000e+00	2.500000e+00	9.616619e+02	3.783870e+00	3.783870e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.238770e-03	4.238771e-03	4.238771e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
-ScaledBy=1.00646112348605876e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.394994e+02	4.016854e+00	4.016854e+00
-5.000000e-01	1.500000e+00	9.700565e-02	3.657443e-02	3.657443e-02
-1.500000e+00	2.500000e+00	3.239757e+02	2.830195e+00	2.830195e+00
+-5.000000e-01	5.000000e-01	1.924369e+03	5.689633e+00	5.689633e+00
+5.000000e-01	1.500000e+00	2.416881e-01	5.023927e-02	5.023927e-02
+1.500000e+00	2.500000e+00	9.624304e+02	4.014052e+00	4.014052e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	3.705470e-03	3.705469e-03	3.705469e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
-ScaledBy=1.00634042143980491e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.362582e+02	3.716253e+00	3.716253e+00
-5.000000e-01	1.500000e+00	8.047428e-02	2.996678e-02	2.996678e-02
-1.500000e+00	2.500000e+00	3.234778e+02	2.629865e+00	2.629865e+00
+-5.000000e-01	5.000000e-01	1.914320e+03	5.270848e+00	5.270848e+00
+5.000000e-01	1.500000e+00	2.174861e-01	4.541630e-02	4.541630e-02
+1.500000e+00	2.500000e+00	9.600614e+02	3.727066e+00	3.727066e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	6.182151e-03	6.182150e-03	6.182150e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
-ScaledBy=1.00633268667761830e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.357628e+02	3.655456e+00	3.655456e+00
-5.000000e-01	1.500000e+00	9.473845e-02	3.366286e-02	3.366286e-02
-1.500000e+00	2.500000e+00	3.236501e+02	2.587771e+00	2.587771e+00
+-5.000000e-01	5.000000e-01	1.914657e+03	5.183963e+00	5.183963e+00
+5.000000e-01	1.500000e+00	2.409251e-01	4.784465e-02	4.784465e-02
+1.500000e+00	2.500000e+00	9.611566e+02	3.665737e+00	3.665737e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	5.159541e-03	5.159541e-03	5.159541e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
-ScaledBy=1.00613959289752695e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.359779e+02	3.680572e+00	3.680572e+00
-5.000000e-01	1.500000e+00	8.733361e-02	3.221854e-02	3.221854e-02
-1.500000e+00	2.500000e+00	3.226402e+02	2.599955e+00	2.599955e+00
+-5.000000e-01	5.000000e-01	1.913933e+03	5.219426e+00	5.219426e+00
+5.000000e-01	1.500000e+00	2.211286e-01	4.639780e-02	4.639780e-02
+1.500000e+00	2.500000e+00	9.600713e+02	3.686652e+00	3.686652e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.823407e-03	4.823406e-03	4.823406e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
-ScaledBy=1.00625876292111521e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.364735e+02	3.640073e+00	3.640073e+00
-5.000000e-01	1.500000e+00	8.857687e-02	3.259417e-02	3.259417e-02
-1.500000e+00	2.500000e+00	3.235835e+02	2.576393e+00	2.576393e+00
+-5.000000e-01	5.000000e-01	1.916595e+03	5.162134e+00	5.162134e+00
+5.000000e-01	1.500000e+00	2.283411e-01	4.736240e-02	4.736240e-02
+1.500000e+00	2.500000e+00	9.617143e+02	3.650119e+00	3.650119e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.888295e-03	4.888295e-03	4.888295e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
-ScaledBy=1.00618363525645895e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.368543e+02	3.712593e+00	3.712593e+00
-5.000000e-01	1.500000e+00	7.652509e-02	3.114005e-02	3.114005e-02
-1.500000e+00	2.500000e+00	3.220326e+02	2.625380e+00	2.625380e+00
+-5.000000e-01	5.000000e-01	1.917070e+03	5.265455e+00	5.265455e+00
+5.000000e-01	1.500000e+00	1.952158e-01	4.723133e-02	4.723133e-02
+1.500000e+00	2.500000e+00	9.594225e+02	3.720727e+00	3.720727e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.267282e-03	4.267281e-03	4.267281e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
-ScaledBy=1.00628236360658663e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.378972e+02	3.725156e+00	3.725156e+00
-5.000000e-01	1.500000e+00	8.365671e-02	3.245555e-02	3.245555e-02
-1.500000e+00	2.500000e+00	3.232654e+02	2.631773e+00	2.631773e+00
+-5.000000e-01	5.000000e-01	1.919693e+03	5.280780e+00	5.280780e+00
+5.000000e-01	1.500000e+00	2.178892e-01	4.646819e-02	4.646819e-02
+1.500000e+00	2.500000e+00	9.607132e+02	3.730484e+00	3.730484e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.698410e-03	4.698410e-03	4.698410e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
-ScaledBy=1.00632646602986858e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.349398e+02	3.643870e+00	3.643870e+00
-5.000000e-01	1.500000e+00	9.219088e-02	3.395054e-02	3.395054e-02
-1.500000e+00	2.500000e+00	3.234079e+02	2.580580e+00	2.580580e+00
+-5.000000e-01	5.000000e-01	1.913748e+03	5.168569e+00	5.168569e+00
+5.000000e-01	1.500000e+00	2.332550e-01	4.832063e-02	4.832063e-02
+1.500000e+00	2.500000e+00	9.608771e+02	3.654774e+00	3.654774e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.771469e-03	4.771469e-03	4.771469e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
-ScaledBy=1.00642824680072140e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.364174e+02	3.689371e+00	3.689371e+00
-5.000000e-01	1.500000e+00	8.833524e-02	3.252222e-02	3.252222e-02
-1.500000e+00	2.500000e+00	3.237518e+02	2.612133e+00	2.612133e+00
+-5.000000e-01	5.000000e-01	1.916748e+03	5.232116e+00	5.232116e+00
+5.000000e-01	1.500000e+00	2.294748e-01	4.750447e-02	4.750447e-02
+1.500000e+00	2.500000e+00	9.613057e+02	3.699670e+00	3.699670e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.851997e-03	4.851996e-03	4.851996e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
 ErrorBars=1
 LineColor=blue!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
-ScaledBy=1.00625453013571016e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.350676e+02	3.707971e+00	3.707971e+00
-5.000000e-01	1.500000e+00	8.174009e-02	3.078643e-02	3.078643e-02
-1.500000e+00	2.500000e+00	3.230398e+02	2.627709e+00	2.627709e+00
+-5.000000e-01	5.000000e-01	1.912339e+03	5.260104e+00	5.260104e+00
+5.000000e-01	1.500000e+00	2.135409e-01	4.679948e-02	4.679948e-02
+1.500000e+00	2.500000e+00	9.600307e+02	3.721631e+00	3.721631e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.859761e-03	4.859761e-03	4.859761e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
 ErrorBars=1
 LineColor=blue
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
-ScaledBy=1.00627188910091740e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG299.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
 Title=MG299
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.360441e+02	3.632037e+00	3.632037e+00
-5.000000e-01	1.500000e+00	8.783253e-02	3.236750e-02	3.236750e-02
-1.500000e+00	2.500000e+00	3.231847e+02	2.570907e+00	2.570907e+00
+-5.000000e-01	5.000000e-01	1.915251e+03	5.151050e+00	5.151050e+00
+5.000000e-01	1.500000e+00	2.251347e-01	4.689093e-02	4.689093e-02
+1.500000e+00	2.500000e+00	9.606907e+02	3.642175e+00	3.642175e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	4.837727e-03	4.837728e-03	4.837728e-03
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
-ScaledBy=1.00505139296632672e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.194925e+02	3.390858e+00	3.390858e+00
-5.000000e-01	1.500000e+00	1.730902e-02	3.089225e-02	3.089225e-02
-1.500000e+00	2.500000e+00	3.107251e+02	2.403039e+00	2.403039e+00
+-5.000000e-01	5.000000e-01	1.863837e+03	4.898020e+00	4.898020e+00
+5.000000e-01	1.500000e+00	7.831739e-02	4.381335e-02	4.381335e-02
+1.500000e+00	2.500000e+00	9.334795e+02	3.467705e+00	3.467705e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
-ScaledBy=1.00504529459042928e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.190828e+02	3.385803e+00	3.385803e+00
-5.000000e-01	1.500000e+00	1.772905e-02	3.071014e-02	3.071014e-02
-1.500000e+00	2.500000e+00	3.103930e+02	2.399727e+00	2.399727e+00
+-5.000000e-01	5.000000e-01	1.862331e+03	4.890855e+00	4.890855e+00
+5.000000e-01	1.500000e+00	7.915021e-02	4.369932e-02	4.369932e-02
+1.500000e+00	2.500000e+00	9.326984e+02	3.462843e+00	3.462843e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
-ScaledBy=1.00504830224766947e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=_2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.190618e+02	3.385339e+00	3.385339e+00
-5.000000e-01	1.500000e+00	1.772588e-02	3.070208e-02	3.070208e-02
-1.500000e+00	2.500000e+00	3.103596e+02	2.399190e+00	2.399190e+00
+-5.000000e-01	5.000000e-01	1.862194e+03	4.890086e+00	4.890086e+00
+5.000000e-01	1.500000e+00	7.891458e-02	4.368942e-02	4.368942e-02
+1.500000e+00	2.500000e+00	9.325471e+02	3.462150e+00	3.462150e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
-ScaledBy=1.00506547870217575e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_x2xg_cns=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.181053e+02	3.548576e+00	3.548576e+00
-5.000000e-01	1.500000e+00	1.744871e-02	3.176399e-02	3.176399e-02
-1.500000e+00	2.500000e+00	3.101920e+02	2.521033e+00	2.521033e+00
+-5.000000e-01	5.000000e-01	1.858612e+03	5.126797e+00	5.126797e+00
+5.000000e-01	1.500000e+00	7.483144e-02	4.604857e-02	4.604857e-02
+1.500000e+00	2.500000e+00	9.315441e+02	3.635228e+00	3.635228e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
-ScaledBy=1.00505467983989134e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.190513e+02	3.385664e+00	3.385664e+00
-5.000000e-01	1.500000e+00	1.772186e-02	3.069153e-02	3.069153e-02
-1.500000e+00	2.500000e+00	3.103261e+02	2.399151e+00	2.399151e+00
+-5.000000e-01	5.000000e-01	1.862122e+03	4.890463e+00	4.890463e+00
+5.000000e-01	1.500000e+00	7.858976e-02	4.367203e-02	4.367203e-02
+1.500000e+00	2.500000e+00	9.324057e+02	3.462210e+00	3.462210e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
-ScaledBy=1.00492952174725220e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.188766e+02	3.476590e+00	3.476590e+00
-5.000000e-01	1.500000e+00	1.725722e-02	2.900169e-02	2.900169e-02
-1.500000e+00	2.500000e+00	3.101470e+02	2.459672e+00	2.459672e+00
+-5.000000e-01	5.000000e-01	1.863123e+03	5.022175e+00	5.022175e+00
+5.000000e-01	1.500000e+00	8.703089e-02	4.263034e-02	4.263034e-02
+1.500000e+00	2.500000e+00	9.324164e+02	3.552394e+00	3.552394e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
-ScaledBy=1.00505280376242359e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=_2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.187762e+02	3.383859e+00	3.383859e+00
-5.000000e-01	1.500000e+00	1.717089e-02	3.076938e-02	3.076938e-02
-1.500000e+00	2.500000e+00	3.102168e+02	2.398035e+00	2.398035e+00
+-5.000000e-01	5.000000e-01	1.861327e+03	4.887854e+00	4.887854e+00
+5.000000e-01	1.500000e+00	7.854132e-02	4.376373e-02	4.376373e-02
+1.500000e+00	2.500000e+00	9.321091e+02	3.460546e+00	3.460546e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
-ScaledBy=1.00504934705506061e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_q2qg_cns=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.190761e+02	3.385494e+00	3.385494e+00
-5.000000e-01	1.500000e+00	1.772595e-02	3.070229e-02	3.070229e-02
-1.500000e+00	2.500000e+00	3.103675e+02	2.399341e+00	2.399341e+00
+-5.000000e-01	5.000000e-01	1.862279e+03	4.890337e+00	4.890337e+00
+5.000000e-01	1.500000e+00	7.891453e-02	4.369166e-02	4.369166e-02
+1.500000e+00	2.500000e+00	9.325961e+02	3.462353e+00	3.462353e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
-ScaledBy=1.00482803737197648e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=4.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.161120e+02	4.030887e+00	4.030887e+00
-5.000000e-01	1.500000e+00	8.343318e-03	2.738346e-02	2.738346e-02
-1.500000e+00	2.500000e+00	3.112695e+02	2.887764e+00	2.887764e+00
+-5.000000e-01	5.000000e-01	1.856766e+03	5.840506e+00	5.840506e+00
+5.000000e-01	1.500000e+00	8.247360e-02	5.051289e-02	5.051289e-02
+1.500000e+00	2.500000e+00	9.325187e+02	4.161821e+00	4.161821e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
-ScaledBy=1.00582796485007589e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.250639e+02	2.545143e+01	2.545143e+01
-5.000000e-01	1.500000e+00	6.771268e-02	6.401581e-02	6.401581e-02
-1.500000e+00	2.500000e+00	3.166902e+02	1.293266e+01	1.293266e+01
+-5.000000e-01	5.000000e-01	1.819757e+03	3.779967e+01	3.779967e+01
+5.000000e-01	1.500000e+00	5.079339e-02	9.648050e-02	9.648050e-02
+1.500000e+00	2.500000e+00	9.365773e+02	3.144167e+01	3.144167e+01
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
-ScaledBy=1.00508812804963470e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=1.414]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.167272e+02	4.466204e+00	4.466204e+00
-5.000000e-01	1.500000e+00	2.658910e-02	3.686387e-02	3.686387e-02
-1.500000e+00	2.500000e+00	3.114053e+02	3.176048e+00	3.176048e+00
+-5.000000e-01	5.000000e-01	1.853443e+03	6.450745e+00	6.450745e+00
+5.000000e-01	1.500000e+00	7.469198e-02	5.747066e-02	5.747066e-02
+1.500000e+00	2.500000e+00	9.330131e+02	4.596788e+00	4.596788e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
-ScaledBy=1.00500961276741867e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.707]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.199758e+02	3.502075e+00	3.502075e+00
-5.000000e-01	1.500000e+00	2.568549e-02	3.412731e-02	3.412731e-02
-1.500000e+00	2.500000e+00	3.109165e+02	2.478404e+00	2.478404e+00
+-5.000000e-01	5.000000e-01	1.865207e+03	5.057275e+00	5.057275e+00
+5.000000e-01	1.500000e+00	8.600774e-02	4.754532e-02	4.754532e-02
+1.500000e+00	2.500000e+00	9.339239e+02	3.578482e+00	3.578482e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
-ScaledBy=1.00496889997852683e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.210244e+02	3.760315e+00	3.760315e+00
-5.000000e-01	1.500000e+00	3.855380e-02	4.229635e-02	4.229635e-02
-1.500000e+00	2.500000e+00	3.116346e+02	2.657923e+00	2.657923e+00
+-5.000000e-01	5.000000e-01	1.868386e+03	5.431377e+00	5.431377e+00
+5.000000e-01	1.500000e+00	9.385308e-02	5.640121e-02	5.640121e-02
+1.500000e+00	2.500000e+00	9.354918e+02	3.842977e+00	3.842977e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
-ScaledBy=1.00487979327996956e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_murfac=0.25]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.232996e+02	4.599276e+00	4.599276e+00
-5.000000e-01	1.500000e+00	7.704205e-02	7.243014e-02	7.243014e-02
-1.500000e+00	2.500000e+00	3.131064e+02	3.235396e+00	3.235396e+00
+-5.000000e-01	5.000000e-01	1.874797e+03	6.663922e+00	6.663922e+00
+5.000000e-01	1.500000e+00	1.130428e-01	8.882856e-02	8.882856e-02
+1.500000e+00	2.500000e+00	9.386456e+02	4.711655e+00	4.711655e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
-ScaledBy=1.00498916961285259e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.198098e+02	3.655482e+00	3.655482e+00
-5.000000e-01	1.500000e+00	2.758901e-02	3.769553e-02	3.769553e-02
-1.500000e+00	2.500000e+00	3.108179e+02	2.591738e+00	2.591738e+00
+-5.000000e-01	5.000000e-01	1.861704e+03	5.280009e+00	5.280009e+00
+5.000000e-01	1.500000e+00	6.887768e-02	5.035845e-02	5.035845e-02
+1.500000e+00	2.500000e+00	9.343301e+02	3.740434e+00	3.740434e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
-ScaledBy=1.00491667698437197e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.200441e+02	3.423875e+00	3.423875e+00
-5.000000e-01	1.500000e+00	1.726061e-02	2.971872e-02	2.971872e-02
-1.500000e+00	2.500000e+00	3.111072e+02	2.428403e+00	2.428403e+00
+-5.000000e-01	5.000000e-01	1.864441e+03	4.946221e+00	4.946221e+00
+5.000000e-01	1.500000e+00	7.672149e-02	4.343287e-02	4.343287e-02
+1.500000e+00	2.500000e+00	9.340966e+02	3.503968e+00	3.503968e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
-ScaledBy=1.00507315634503797e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=_2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.178216e+02	3.384847e+00	3.384847e+00
-5.000000e-01	1.500000e+00	1.740954e-02	3.067686e-02	3.067686e-02
-1.500000e+00	2.500000e+00	3.097617e+02	2.398050e+00	2.398050e+00
+-5.000000e-01	5.000000e-01	1.858974e+03	4.889446e+00	4.889446e+00
+5.000000e-01	1.500000e+00	7.876343e-02	4.356018e-02	4.356018e-02
+1.500000e+00	2.500000e+00	9.309620e+02	3.461682e+00	3.461682e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
-ScaledBy=1.00504495052812368e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2qq_cns=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.193004e+02	3.387514e+00	3.387514e+00
-5.000000e-01	1.500000e+00	1.827279e-02	3.064488e-02	3.064488e-02
-1.500000e+00	2.500000e+00	3.105176e+02	2.400859e+00	2.400859e+00
+-5.000000e-01	5.000000e-01	1.863067e+03	4.893358e+00	4.893358e+00
+5.000000e-01	1.500000e+00	7.927798e-02	4.362690e-02	4.362690e-02
+1.500000e+00	2.500000e+00	9.330136e+02	3.464483e+00	3.464483e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
-ScaledBy=1.00521392161955708e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.180488e+02	3.457767e+00	3.457767e+00
-5.000000e-01	1.500000e+00	1.752985e-02	3.270705e-02	3.270705e-02
-1.500000e+00	2.500000e+00	3.095965e+02	2.448118e+00	2.448118e+00
+-5.000000e-01	5.000000e-01	1.859778e+03	4.994386e+00	4.994386e+00
+5.000000e-01	1.500000e+00	8.157582e-02	4.505089e-02	4.505089e-02
+1.500000e+00	2.500000e+00	9.309463e+02	3.533863e+00	3.533863e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
-ScaledBy=1.00518822373928345e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.199058e+02	3.608008e+00	3.608008e+00
-5.000000e-01	1.500000e+00	3.197761e-02	4.130476e-02	4.130476e-02
-1.500000e+00	2.500000e+00	3.110450e+02	2.553121e+00	2.553121e+00
+-5.000000e-01	5.000000e-01	1.864790e+03	5.210484e+00	5.210484e+00
+5.000000e-01	1.500000e+00	8.478573e-02	5.369750e-02	5.369750e-02
+1.500000e+00	2.500000e+00	9.341243e+02	3.687711e+00	3.687711e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
-ScaledBy=1.00504580968803677e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=_2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.186568e+02	3.382845e+00	3.382845e+00
-5.000000e-01	1.500000e+00	1.811842e-02	3.052589e-02	3.052589e-02
-1.500000e+00	2.500000e+00	3.099989e+02	2.397470e+00	2.397470e+00
+-5.000000e-01	5.000000e-01	1.860655e+03	4.886552e+00	4.886552e+00
+5.000000e-01	1.500000e+00	7.944602e-02	4.359351e-02	4.359351e-02
+1.500000e+00	2.500000e+00	9.316575e+02	3.459697e+00	3.459697e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
-ScaledBy=1.00503784773780411e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[isr_g2gg_cns=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.204159e+02	3.399732e+00	3.399732e+00
-5.000000e-01	1.500000e+00	1.805391e-02	3.073341e-02	3.073341e-02
-1.500000e+00	2.500000e+00	3.110046e+02	2.413854e+00	2.413854e+00
+-5.000000e-01	5.000000e-01	1.865500e+03	4.913072e+00	4.913072e+00
+5.000000e-01	1.500000e+00	7.908187e-02	4.382970e-02	4.382970e-02
+1.500000e+00	2.500000e+00	9.342238e+02	3.482321e+00	3.482321e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
-ScaledBy=1.00508624181643905e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.195775e+02	3.403287e+00	3.403287e+00
-5.000000e-01	1.500000e+00	1.189842e-02	2.941109e-02	2.941109e-02
-1.500000e+00	2.500000e+00	3.102823e+02	2.409960e+00	2.409960e+00
+-5.000000e-01	5.000000e-01	1.863122e+03	4.915223e+00	4.915223e+00
+5.000000e-01	1.500000e+00	6.625935e-02	4.256254e-02	4.256254e-02
+1.500000e+00	2.500000e+00	9.326562e+02	3.478324e+00	3.478324e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
-ScaledBy=1.00502905838302011e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.190310e+02	3.386368e+00	3.386368e+00
-5.000000e-01	1.500000e+00	1.772557e-02	3.070158e-02	3.070158e-02
-1.500000e+00	2.500000e+00	3.103536e+02	2.400003e+00	2.400003e+00
+-5.000000e-01	5.000000e-01	1.862234e+03	4.891841e+00	4.891841e+00
+5.000000e-01	1.500000e+00	7.880119e-02	4.369797e-02	4.369797e-02
+1.500000e+00	2.500000e+00	9.325549e+02	3.463212e+00	3.463212e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
-ScaledBy=1.00505043460326968e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=_2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.190266e+02	3.385657e+00	3.385657e+00
-5.000000e-01	1.500000e+00	1.772594e-02	3.070223e-02	3.070223e-02
-1.500000e+00	2.500000e+00	3.103396e+02	2.399230e+00	2.399230e+00
+-5.000000e-01	5.000000e-01	1.862127e+03	4.890294e+00	4.890294e+00
+5.000000e-01	1.500000e+00	8.075012e-02	4.395070e-02	4.395070e-02
+1.500000e+00	2.500000e+00	9.325238e+02	3.462255e+00	3.462255e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
-ScaledBy=1.00506547870217575e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_x2xg_cns=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.181053e+02	3.548576e+00	3.548576e+00
-5.000000e-01	1.500000e+00	1.744871e-02	3.176399e-02	3.176399e-02
-1.500000e+00	2.500000e+00	3.101920e+02	2.521033e+00	2.521033e+00
+-5.000000e-01	5.000000e-01	1.858612e+03	5.126797e+00	5.126797e+00
+5.000000e-01	1.500000e+00	7.483144e-02	4.604857e-02	4.604857e-02
+1.500000e+00	2.500000e+00	9.315441e+02	3.635228e+00	3.635228e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
-ScaledBy=1.00508508600883225e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.190978e+02	3.388516e+00	3.388516e+00
-5.000000e-01	1.500000e+00	1.772656e-02	3.070329e-02	3.070329e-02
-1.500000e+00	2.500000e+00	3.103716e+02	2.401118e+00	2.401118e+00
+-5.000000e-01	5.000000e-01	1.862225e+03	4.894171e+00	4.894171e+00
+5.000000e-01	1.500000e+00	7.886312e-02	4.363546e-02	4.363546e-02
+1.500000e+00	2.500000e+00	9.325809e+02	3.465356e+00	3.465356e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
-ScaledBy=1.00502207719245822e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.202701e+02	3.412213e+00	3.412213e+00
-5.000000e-01	1.500000e+00	1.477834e-02	3.051596e-02	3.051596e-02
-1.500000e+00	2.500000e+00	3.104509e+02	2.416965e+00	2.416965e+00
+-5.000000e-01	5.000000e-01	1.865408e+03	4.928162e+00	4.928162e+00
+5.000000e-01	1.500000e+00	7.659136e-02	4.339183e-02	4.339183e-02
+1.500000e+00	2.500000e+00	9.326982e+02	3.487585e+00	3.487585e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
-ScaledBy=1.00504831117834885e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=_2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.185497e+02	3.386101e+00	3.386101e+00
-5.000000e-01	1.500000e+00	1.771834e-02	3.043134e-02	3.043134e-02
-1.500000e+00	2.500000e+00	3.101158e+02	2.399853e+00	2.399853e+00
+-5.000000e-01	5.000000e-01	1.860787e+03	4.891313e+00	4.891313e+00
+5.000000e-01	1.500000e+00	7.887843e-02	4.340657e-02	4.340657e-02
+1.500000e+00	2.500000e+00	9.318251e+02	3.463648e+00	3.463648e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
-ScaledBy=1.00504770757540161e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_q2qg_cns=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.191133e+02	3.385747e+00	3.385747e+00
-5.000000e-01	1.500000e+00	1.772590e-02	3.070215e-02	3.070215e-02
-1.500000e+00	2.500000e+00	3.103848e+02	2.399624e+00	2.399624e+00
+-5.000000e-01	5.000000e-01	1.862346e+03	4.890856e+00	4.890856e+00
+5.000000e-01	1.500000e+00	7.708090e-02	4.351695e-02	4.351695e-02
+1.500000e+00	2.500000e+00	9.326173e+02	3.462746e+00	3.462746e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
-ScaledBy=1.00505362045000893e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=4.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.182662e+02	3.736730e+00	3.736730e+00
-5.000000e-01	1.500000e+00	1.977049e-02	2.921981e-02	2.921981e-02
-1.500000e+00	2.500000e+00	3.120238e+02	2.654543e+00	2.654543e+00
+-5.000000e-01	5.000000e-01	1.859611e+03	5.398625e+00	5.398625e+00
+5.000000e-01	1.500000e+00	1.086923e-01	4.780567e-02	4.780567e-02
+1.500000e+00	2.500000e+00	9.317157e+02	3.821975e+00	3.821975e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
-ScaledBy=1.00795287117327156e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.303382e+02	2.382629e+01	2.382629e+01
-5.000000e-01	1.500000e+00	2.458120e-02	3.033449e-02	3.033449e-02
-1.500000e+00	2.500000e+00	3.180400e+02	7.617595e+00	7.617595e+00
+-5.000000e-01	5.000000e-01	1.867757e+03	2.648099e+01	2.648099e+01
+5.000000e-01	1.500000e+00	2.376813e-01	1.343585e-01	1.343585e-01
+1.500000e+00	2.500000e+00	9.296828e+02	1.034443e+01	1.034443e+01
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
-ScaledBy=1.00539687254086063e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=1.414]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.167930e+02	3.902740e+00	3.902740e+00
-5.000000e-01	1.500000e+00	2.743313e-02	3.010887e-02	3.010887e-02
-1.500000e+00	2.500000e+00	3.126444e+02	2.799752e+00	2.799752e+00
+-5.000000e-01	5.000000e-01	1.855459e+03	5.657127e+00	5.657127e+00
+5.000000e-01	1.500000e+00	1.241924e-01	5.076585e-02	5.076585e-02
+1.500000e+00	2.500000e+00	9.325748e+02	4.017319e+00	4.017319e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
-ScaledBy=1.00500906788730182e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.707]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.194844e+02	3.429930e+00	3.429930e+00
-5.000000e-01	1.500000e+00	1.313591e-02	3.088098e-02	3.088098e-02
-1.500000e+00	2.500000e+00	3.100477e+02	2.428377e+00	2.428377e+00
+-5.000000e-01	5.000000e-01	1.864148e+03	4.953675e+00	4.953675e+00
+5.000000e-01	1.500000e+00	6.526534e-02	4.369794e-02	4.369794e-02
+1.500000e+00	2.500000e+00	9.328547e+02	3.506135e+00	3.506135e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
-ScaledBy=1.00499503205864696e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.197547e+02	3.520071e+00	3.520071e+00
-5.000000e-01	1.500000e+00	9.367828e-03	3.099196e-02	3.099196e-02
-1.500000e+00	2.500000e+00	3.099323e+02	2.489845e+00	2.489845e+00
+-5.000000e-01	5.000000e-01	1.865570e+03	5.082908e+00	5.082908e+00
+5.000000e-01	1.500000e+00	5.539095e-02	4.399497e-02	4.399497e-02
+1.500000e+00	2.500000e+00	9.331330e+02	3.596215e+00	3.596215e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
-ScaledBy=1.00497376284739465e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_murfac=0.25]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.200239e+02	3.738984e+00	3.738984e+00
-5.000000e-01	1.500000e+00	3.375006e-03	3.093549e-02	3.093549e-02
-1.500000e+00	2.500000e+00	3.099342e+02	2.639759e+00	2.639759e+00
+-5.000000e-01	5.000000e-01	1.867510e+03	5.396235e+00	5.396235e+00
+5.000000e-01	1.500000e+00	4.161756e-02	4.463659e-02	4.463659e-02
+1.500000e+00	2.500000e+00	9.335932e+02	3.814677e+00	3.814677e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
-ScaledBy=1.00510068211153037e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.167729e+02	3.460572e+00	3.460572e+00
-5.000000e-01	1.500000e+00	2.460801e-02	3.183228e-02	3.183228e-02
-1.500000e+00	2.500000e+00	3.102479e+02	2.454850e+00	2.454850e+00
+-5.000000e-01	5.000000e-01	1.856652e+03	5.001285e+00	5.001285e+00
+5.000000e-01	1.500000e+00	8.307606e-02	4.590452e-02	4.590452e-02
+1.500000e+00	2.500000e+00	9.325402e+02	3.543653e+00	3.543653e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
-ScaledBy=1.00499762012458516e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.189914e+02	3.408227e+00	3.408227e+00
-5.000000e-01	1.500000e+00	1.482801e-02	3.066696e-02	3.066696e-02
-1.500000e+00	2.500000e+00	3.104117e+02	2.414754e+00	2.414754e+00
+-5.000000e-01	5.000000e-01	1.861871e+03	4.921878e+00	4.921878e+00
+5.000000e-01	1.500000e+00	7.543837e-02	4.386013e-02	4.386013e-02
+1.500000e+00	2.500000e+00	9.326359e+02	3.485055e+00	3.485055e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
-ScaledBy=1.00505844889186678e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=_2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.195036e+02	3.434175e+00	3.434175e+00
-5.000000e-01	1.500000e+00	1.675745e-02	2.986668e-02	2.986668e-02
-1.500000e+00	2.500000e+00	3.109488e+02	2.437975e+00	2.437975e+00
+-5.000000e-01	5.000000e-01	1.861165e+03	4.957143e+00	4.957143e+00
+5.000000e-01	1.500000e+00	6.826591e-02	4.426578e-02	4.426578e-02
+1.500000e+00	2.500000e+00	9.328831e+02	3.512663e+00	3.512663e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
-ScaledBy=1.00504624720230795e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2qq_cns=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.195731e+02	3.393249e+00	3.393249e+00
-5.000000e-01	1.500000e+00	1.773490e-02	3.097948e-02	3.097948e-02
-1.500000e+00	2.500000e+00	3.106223e+02	2.404797e+00	2.404797e+00
+-5.000000e-01	5.000000e-01	1.863716e+03	4.901507e+00	4.901507e+00
+5.000000e-01	1.500000e+00	7.892603e-02	4.398552e-02	4.398552e-02
+1.500000e+00	2.500000e+00	9.333240e+02	3.469865e+00	3.469865e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
-ScaledBy=1.00519268164036639e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.192608e+02	3.456469e+00	3.456469e+00
-5.000000e-01	1.500000e+00	2.227275e-02	3.101435e-02	3.101435e-02
-1.500000e+00	2.500000e+00	3.101031e+02	2.452703e+00	2.452703e+00
+-5.000000e-01	5.000000e-01	1.863036e+03	4.996279e+00	4.996279e+00
+5.000000e-01	1.500000e+00	8.365556e-02	4.474825e-02	4.474825e-02
+1.500000e+00	2.500000e+00	9.324148e+02	3.537457e+00	3.537457e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
-ScaledBy=1.00507801715323557e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_murfac=0.5]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.184688e+02	3.467264e+00	3.467264e+00
-5.000000e-01	1.500000e+00	1.627979e-02	3.134028e-02	3.134028e-02
-1.500000e+00	2.500000e+00	3.095811e+02	2.454266e+00	2.454266e+00
+-5.000000e-01	5.000000e-01	1.862685e+03	5.008778e+00	5.008778e+00
+5.000000e-01	1.500000e+00	6.042760e-02	4.493847e-02	4.493847e-02
+1.500000e+00	2.500000e+00	9.328449e+02	3.545685e+00	3.545685e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
-ScaledBy=1.00500169623981337e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=_2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.184677e+02	3.394443e+00	3.394443e+00
-5.000000e-01	1.500000e+00	2.305809e-02	3.228016e-02	3.228016e-02
-1.500000e+00	2.500000e+00	3.104905e+02	2.409549e+00	2.409549e+00
+-5.000000e-01	5.000000e-01	1.861258e+03	4.904957e+00	4.904957e+00
+5.000000e-01	1.500000e+00	9.062290e-02	4.535096e-02	4.535096e-02
+1.500000e+00	2.500000e+00	9.326925e+02	3.476065e+00	3.476065e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
-ScaledBy=1.00503912534092087e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[fsr_g2gg_cns=2.0]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.185657e+02	3.439218e+00	3.439218e+00
-5.000000e-01	1.500000e+00	1.885999e-02	3.167911e-02	3.167911e-02
-1.500000e+00	2.500000e+00	3.096996e+02	2.438072e+00	2.438072e+00
+-5.000000e-01	5.000000e-01	1.863082e+03	4.967603e+00	4.967603e+00
+5.000000e-01	1.500000e+00	8.975738e-02	4.481422e-02	4.481422e-02
+1.500000e+00	2.500000e+00	9.322020e+02	3.517788e+00	3.517788e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
 ErrorBars=1
 LineColor=green!30
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
-ScaledBy=1.00514389336384470e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt[Baseline]
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.183502e+02	3.456080e+00	3.456080e+00
-5.000000e-01	1.500000e+00	2.261948e-02	3.065927e-02	3.065927e-02
-1.500000e+00	2.500000e+00	3.110398e+02	2.454214e+00	2.454214e+00
+-5.000000e-01	5.000000e-01	1.859545e+03	4.994433e+00	4.994433e+00
+5.000000e-01	1.500000e+00	9.723203e-02	4.496672e-02	4.496672e-02
+1.500000e+00	2.500000e+00	9.323500e+02	3.537732e+00	3.537732e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+# BEGIN HISTO1D //u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
 ErrorBars=1
 LineColor=green
 LineStyle=solid
-Path=//u/user/choij/tmp_0x7fbab46a51c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
-ScaledBy=1.00504883067244718e-06
+Path=//u/user/choij/tmp_0x7f1f75d231c0/MG331.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
 Title=MG331
 # xlow	 xhigh	 val	 errminus	 errplus
--5.000000e-01	5.000000e-01	6.190687e+02	3.385407e+00	3.385407e+00
-5.000000e-01	1.500000e+00	1.772592e-02	3.070219e-02	3.070219e-02
-1.500000e+00	2.500000e+00	3.103630e+02	2.399260e+00	2.399260e+00
+-5.000000e-01	5.000000e-01	1.862236e+03	4.890200e+00	4.890200e+00
+5.000000e-01	1.500000e+00	7.891461e-02	4.369054e-02	4.369054e-02
+1.500000e+00	2.500000e+00	9.325715e+02	3.462245e+00	3.462245e+00
 2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
