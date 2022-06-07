@@ -1,0 +1,2318 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Fraction of positive and negative weighted events
+XLabel=$\mathrm{sgn}(w)$
+XCustomMajorTicks=-0.5	$w<0$	0.5	$w\geq0$
+YLabel=$\mathrm{d}\sigma/\mathrm{d~sgn}(w)$ [pb]
+ShowZero=0
+XMinorTickMarks=0
+XMin=-1
+XMax=1
+LegendXPos=0.05
+DrawOnly=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS
+LegendOnly=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS
+RatioPlot=1
+RatioPlotReference=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=2.0]
+ScaledBy=9.92893546258786715e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.576246e+03	6.278040e+00	6.278040e+00
+0.000000e+00	1.000000e+00	7.967811e+03	1.411404e+01	1.411404e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=0.5]
+ScaledBy=9.92889549571811558e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575413e+03	6.272659e+00	6.272659e+00
+0.000000e+00	1.000000e+00	7.965162e+03	1.410413e+01	1.410413e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=_2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=_2.0]
+ScaledBy=9.92892427482732767e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575452e+03	6.272306e+00	6.272306e+00
+0.000000e+00	1.000000e+00	7.964894e+03	1.410300e+01	1.410300e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=2.0]
+ScaledBy=9.92960992418641816e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.574873e+03	6.591058e+00	6.591058e+00
+0.000000e+00	1.000000e+00	7.944568e+03	1.478125e+01	1.478125e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=2.0]
+ScaledBy=9.92895265710376602e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575521e+03	6.273635e+00	6.273635e+00
+0.000000e+00	1.000000e+00	7.964994e+03	1.410459e+01	1.410459e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=0.5]
+ScaledBy=9.92911438879775261e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.576510e+03	6.434543e+00	6.434543e+00
+0.000000e+00	1.000000e+00	7.974731e+03	1.447784e+01	1.447784e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=_2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=_2.0]
+ScaledBy=9.92888156331461012e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.574943e+03	6.271222e+00	6.271222e+00
+0.000000e+00	1.000000e+00	7.960214e+03	1.409735e+01	1.409735e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=2.0]
+ScaledBy=9.92891508605407439e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575485e+03	6.272433e+00	6.272433e+00
+0.000000e+00	1.000000e+00	7.965235e+03	1.410360e+01	1.410360e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=4.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=4.0]
+ScaledBy=9.93070627907403456e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.577348e+03	7.481294e+00	7.481294e+00
+0.000000e+00	1.000000e+00	7.950740e+03	1.681527e+01	1.681527e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=2.0]
+ScaledBy=9.94879958369982223e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.551893e+03	4.587455e+01	4.587455e+01
+0.000000e+00	1.000000e+00	7.945716e+03	1.545923e+02	1.545923e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=1.414]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=1.414]
+ScaledBy=9.93078490056892210e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.574422e+03	8.309638e+00	8.309638e+00
+0.000000e+00	1.000000e+00	7.918910e+03	1.866086e+01	1.866086e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.707]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.707]
+ScaledBy=9.92847093863259441e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575009e+03	6.463285e+00	6.463285e+00
+0.000000e+00	1.000000e+00	7.980379e+03	1.456505e+01	1.456505e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.5]
+ScaledBy=9.92821968013255547e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.573996e+03	6.903706e+00	6.903706e+00
+0.000000e+00	1.000000e+00	7.994047e+03	1.560472e+01	1.560472e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.25]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.25]
+ScaledBy=9.92806801279358927e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.570061e+03	8.299110e+00	8.299110e+00
+0.000000e+00	1.000000e+00	8.016799e+03	1.901099e+01	1.901099e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=2.0]
+ScaledBy=9.92872510137546791e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.573197e+03	6.765809e+00	6.765809e+00
+0.000000e+00	1.000000e+00	7.950212e+03	1.521414e+01	1.521414e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=0.5]
+ScaledBy=9.92805917291629016e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.576941e+03	6.364065e+00	6.364065e+00
+0.000000e+00	1.000000e+00	7.977072e+03	1.430352e+01	1.430352e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=_2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=_2.0]
+ScaledBy=9.92903658098745604e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.573090e+03	6.279374e+00	6.279374e+00
+0.000000e+00	1.000000e+00	7.940168e+03	1.410891e+01	1.410891e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=2.0]
+ScaledBy=9.92896787019828772e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575822e+03	6.274723e+00	6.274723e+00
+0.000000e+00	1.000000e+00	7.969582e+03	1.411396e+01	1.411396e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=2.0]
+ScaledBy=9.92985757685617227e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.574277e+03	6.436863e+00	6.436863e+00
+0.000000e+00	1.000000e+00	7.948745e+03	1.445649e+01	1.445649e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=0.5]
+ScaledBy=9.92898781212429063e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.572648e+03	6.634424e+00	6.634424e+00
+0.000000e+00	1.000000e+00	7.972520e+03	1.495096e+01	1.495096e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=_2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=_2.0]
+ScaledBy=9.92890246178495926e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.574715e+03	6.271864e+00	6.271864e+00
+0.000000e+00	1.000000e+00	7.962306e+03	1.410411e+01	1.410411e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=2.0]
+ScaledBy=9.92877528913070243e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.577200e+03	6.297907e+00	6.297907e+00
+0.000000e+00	1.000000e+00	7.990760e+03	1.423022e+01	1.423022e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=2.0]
+ScaledBy=9.92889046712538858e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.577420e+03	6.311684e+00	6.311684e+00
+0.000000e+00	1.000000e+00	7.967855e+03	1.414590e+01	1.414590e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=0.5]
+ScaledBy=9.92893542107130110e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575503e+03	6.274592e+00	6.274592e+00
+0.000000e+00	1.000000e+00	7.965086e+03	1.410581e+01	1.410581e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=_2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=_2.0]
+ScaledBy=9.92891337235256491e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575373e+03	6.272485e+00	6.272485e+00
+0.000000e+00	1.000000e+00	7.964710e+03	1.410314e+01	1.410314e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=2.0]
+ScaledBy=9.92960992418641816e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.574873e+03	6.591058e+00	6.591058e+00
+0.000000e+00	1.000000e+00	7.944568e+03	1.478125e+01	1.478125e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=2.0]
+ScaledBy=9.92888303725023864e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575585e+03	6.280201e+00	6.280201e+00
+0.000000e+00	1.000000e+00	7.965230e+03	1.411262e+01	1.411262e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=0.5]
+ScaledBy=9.92907981005915145e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.577428e+03	6.319148e+00	6.319148e+00
+0.000000e+00	1.000000e+00	7.967838e+03	1.418006e+01	1.418006e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=_2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=_2.0]
+ScaledBy=9.92882725504859978e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.573898e+03	6.273062e+00	6.273062e+00
+0.000000e+00	1.000000e+00	7.962446e+03	1.410777e+01	1.410777e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=2.0]
+ScaledBy=9.92892575083156522e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575588e+03	6.273277e+00	6.273277e+00
+0.000000e+00	1.000000e+00	7.965425e+03	1.410439e+01	1.410439e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=4.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=4.0]
+ScaledBy=9.92893781365003275e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.574502e+03	6.931063e+00	6.931063e+00
+0.000000e+00	1.000000e+00	7.965047e+03	1.535541e+01	1.535541e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=2.0]
+ScaledBy=9.93217286234855235e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.557326e+03	1.542004e+01	1.542004e+01
+0.000000e+00	1.000000e+00	7.942176e+03	3.889505e+01	3.889505e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=1.414]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=1.414]
+ScaledBy=9.92930094829225093e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.572614e+03	7.254415e+00	7.254415e+00
+0.000000e+00	1.000000e+00	7.953782e+03	1.598399e+01	1.598399e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.707]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.707]
+ScaledBy=9.92895904494437293e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.577172e+03	6.355086e+00	6.355086e+00
+0.000000e+00	1.000000e+00	7.968546e+03	1.424844e+01	1.424844e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.5]
+ScaledBy=9.92903188375413235e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.578852e+03	6.522710e+00	6.522710e+00
+0.000000e+00	1.000000e+00	7.970923e+03	1.454559e+01	1.454559e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.25]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.25]
+ScaledBy=9.92917877008007216e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.581774e+03	6.931933e+00	6.931933e+00
+0.000000e+00	1.000000e+00	7.974148e+03	1.526162e+01	1.526162e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=2.0]
+ScaledBy=9.92864038929255330e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.572681e+03	6.402596e+00	6.402596e+00
+0.000000e+00	1.000000e+00	7.960826e+03	1.436462e+01	1.436462e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=0.5]
+ScaledBy=9.92871883311126237e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575602e+03	6.312088e+00	6.312088e+00
+0.000000e+00	1.000000e+00	7.967494e+03	1.417825e+01	1.417825e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=_2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=_2.0]
+ScaledBy=9.92882354267847697e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.573298e+03	6.375685e+00	6.375685e+00
+0.000000e+00	1.000000e+00	7.962195e+03	1.423212e+01	1.423212e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=2.0]
+ScaledBy=9.92901475594203149e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.577059e+03	6.285245e+00	6.285245e+00
+0.000000e+00	1.000000e+00	7.967707e+03	1.411675e+01	1.411675e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=2.0]
+ScaledBy=9.92925687647288982e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575253e+03	6.413718e+00	6.413718e+00
+0.000000e+00	1.000000e+00	7.960389e+03	1.435498e+01	1.435498e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=0.5]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=0.5]
+ScaledBy=9.92900834563045575e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.576391e+03	6.428327e+00	6.428327e+00
+0.000000e+00	1.000000e+00	7.966903e+03	1.438942e+01	1.438942e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=_2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=_2.0]
+ScaledBy=9.92895920845427688e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.573586e+03	6.300223e+00	6.300223e+00
+0.000000e+00	1.000000e+00	7.962274e+03	1.413954e+01	1.413954e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=2.0]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=2.0]
+ScaledBy=9.92911871369127455e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.613818e+03	6.438974e+00	6.438974e+00
+0.000000e+00	1.000000e+00	8.004303e+03	1.423411e+01	1.423411e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[Baseline]
+ErrorBars=1
+LineColor=red!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS[Baseline]
+ScaledBy=9.92897683152910851e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.573911e+03	6.407224e+00	6.407224e+00
+0.000000e+00	1.000000e+00	7.960204e+03	1.435462e+01	1.435462e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/incl.yoda.gz/MC_XS:ENERGY=13000/pmXS
+ScaledBy=9.92891918516542888e-07
+Title=incl
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.575468e+03	6.272337e+00	6.272337e+00
+0.000000e+00	1.000000e+00	7.965067e+03	1.410325e+01	1.410325e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=2.0]
+ScaledBy=1.04508322284528517e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282999e+03	5.697036e+00	5.697036e+00
+0.000000e+00	1.000000e+00	7.524275e+03	1.379600e+01	1.379600e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=0.5]
+ScaledBy=1.04509197861935840e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282785e+03	5.694287e+00	5.694287e+00
+0.000000e+00	1.000000e+00	7.523405e+03	1.378921e+01	1.378921e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=_2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=_2.0]
+ScaledBy=1.04509423658204272e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282665e+03	5.693295e+00	5.693295e+00
+0.000000e+00	1.000000e+00	7.523043e+03	1.378798e+01	1.378798e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=2.0]
+ScaledBy=1.04513927012503572e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282609e+03	5.991426e+00	5.991426e+00
+0.000000e+00	1.000000e+00	7.514974e+03	1.447657e+01	1.447657e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=2.0]
+ScaledBy=1.04509601227299861e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282514e+03	5.693582e+00	5.693582e+00
+0.000000e+00	1.000000e+00	7.522994e+03	1.378914e+01	1.378914e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=0.5]
+ScaledBy=1.04508910277842012e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.281814e+03	5.832597e+00	5.832597e+00
+0.000000e+00	1.000000e+00	7.521772e+03	1.413180e+01	1.413180e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=_2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=_2.0]
+ScaledBy=1.04509453278047566e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282474e+03	5.693205e+00	5.693205e+00
+0.000000e+00	1.000000e+00	7.518983e+03	1.378330e+01	1.378330e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=2.0]
+ScaledBy=1.04509304615958962e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282698e+03	5.693438e+00	5.693438e+00
+0.000000e+00	1.000000e+00	7.523381e+03	1.378859e+01	1.378859e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=4.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=4.0]
+ScaledBy=1.04509187965188612e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.283776e+03	6.825236e+00	6.825236e+00
+0.000000e+00	1.000000e+00	7.518852e+03	1.646529e+01	1.646529e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=2.0]
+ScaledBy=1.04248485839836774e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.303992e+03	4.431274e+01	4.431274e+01
+0.000000e+00	1.000000e+00	7.585351e+03	2.189887e+02	2.189887e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=1.414]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=1.414]
+ScaledBy=1.04519199134073025e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.284482e+03	7.664653e+00	7.664653e+00
+0.000000e+00	1.000000e+00	7.508731e+03	1.842747e+01	1.842747e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.707]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.707]
+ScaledBy=1.04508101708282777e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.283547e+03	5.879257e+00	5.879257e+00
+0.000000e+00	1.000000e+00	7.530792e+03	1.422555e+01	1.422555e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.5]
+ScaledBy=1.04508893395684118e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.284967e+03	6.312821e+00	6.312821e+00
+0.000000e+00	1.000000e+00	7.538085e+03	1.522426e+01	1.522426e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.25]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.25]
+ScaledBy=1.04513347888362292e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.287951e+03	7.707399e+00	7.707399e+00
+0.000000e+00	1.000000e+00	7.551155e+03	1.849324e+01	1.849324e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=2.0]
+ScaledBy=1.04512584535338046e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.283477e+03	6.154641e+00	6.154641e+00
+0.000000e+00	1.000000e+00	7.526033e+03	1.490350e+01	1.490350e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=0.5]
+ScaledBy=1.04506420336312008e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.284101e+03	5.781453e+00	5.781453e+00
+0.000000e+00	1.000000e+00	7.532387e+03	1.398241e+01	1.398241e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=_2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=_2.0]
+ScaledBy=1.04508806233152960e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.280785e+03	5.701705e+00	5.701705e+00
+0.000000e+00	1.000000e+00	7.496890e+03	1.379078e+01	1.379078e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=2.0]
+ScaledBy=1.04509044593045481e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282892e+03	5.695060e+00	5.695060e+00
+0.000000e+00	1.000000e+00	7.527181e+03	1.379834e+01	1.379834e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=2.0]
+ScaledBy=1.04513799596375560e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.280531e+03	5.842426e+00	5.842426e+00
+0.000000e+00	1.000000e+00	7.511110e+03	1.415065e+01	1.415065e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=0.5]
+ScaledBy=1.04509269592447593e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.283455e+03	6.045781e+00	6.045781e+00
+0.000000e+00	1.000000e+00	7.529688e+03	1.460884e+01	1.460884e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=_2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=_2.0]
+ScaledBy=1.04510395164304348e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282362e+03	5.694135e+00	5.694135e+00
+0.000000e+00	1.000000e+00	7.522151e+03	1.379192e+01	1.379192e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=2.0]
+ScaledBy=1.04511219652579013e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.284447e+03	5.719716e+00	5.719716e+00
+0.000000e+00	1.000000e+00	7.548455e+03	1.390178e+01	1.390178e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=2.0]
+ScaledBy=1.04508298751793457e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.283644e+03	5.720622e+00	5.720622e+00
+0.000000e+00	1.000000e+00	7.524858e+03	1.382231e+01	1.382231e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=0.5]
+ScaledBy=1.04509602161990045e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282815e+03	5.695432e+00	5.695432e+00
+0.000000e+00	1.000000e+00	7.523417e+03	1.379065e+01	1.379065e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=_2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=_2.0]
+ScaledBy=1.04509447113219909e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282708e+03	5.693846e+00	5.693846e+00
+0.000000e+00	1.000000e+00	7.523105e+03	1.378844e+01	1.378844e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=2.0]
+ScaledBy=1.04513927012503572e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282609e+03	5.991426e+00	5.991426e+00
+0.000000e+00	1.000000e+00	7.514974e+03	1.447657e+01	1.447657e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=2.0]
+ScaledBy=1.04508996806363800e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282456e+03	5.697705e+00	5.697705e+00
+0.000000e+00	1.000000e+00	7.522823e+03	1.379479e+01	1.379479e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=0.5]
+ScaledBy=1.04510626402734457e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.284799e+03	5.734403e+00	5.734403e+00
+0.000000e+00	1.000000e+00	7.525939e+03	1.385775e+01	1.385775e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=_2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=_2.0]
+ScaledBy=1.04509118433155385e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.281654e+03	5.694060e+00	5.694060e+00
+0.000000e+00	1.000000e+00	7.522119e+03	1.379364e+01	1.379364e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=2.0]
+ScaledBy=1.04509282178090176e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282655e+03	5.693610e+00	5.693610e+00
+0.000000e+00	1.000000e+00	7.523327e+03	1.378884e+01	1.378884e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=4.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=4.0]
+ScaledBy=1.04496470743502165e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.278174e+03	6.222761e+00	6.222761e+00
+0.000000e+00	1.000000e+00	7.529010e+03	1.494771e+01	1.494771e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=2.0]
+ScaledBy=1.04434808977134098e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.247049e+03	1.303028e+01	1.303028e+01
+0.000000e+00	1.000000e+00	7.487606e+03	3.346080e+01	3.346080e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=1.414]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=1.414]
+ScaledBy=1.04491842926682828e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.273921e+03	6.459481e+00	6.459481e+00
+0.000000e+00	1.000000e+00	7.519321e+03	1.549102e+01	1.549102e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.707]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.707]
+ScaledBy=1.04513110987582300e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.285487e+03	5.768059e+00	5.768059e+00
+0.000000e+00	1.000000e+00	7.525354e+03	1.392060e+01	1.392060e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.5]
+ScaledBy=1.04515225156894533e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.287740e+03	5.910328e+00	5.910328e+00
+0.000000e+00	1.000000e+00	7.527646e+03	1.419515e+01	1.419515e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.25]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.25]
+ScaledBy=1.04517586489477286e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.291211e+03	6.251140e+00	6.251140e+00
+0.000000e+00	1.000000e+00	7.532085e+03	1.485550e+01	1.485550e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=2.0]
+ScaledBy=1.04505636587570603e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.279387e+03	5.795418e+00	5.795418e+00
+0.000000e+00	1.000000e+00	7.518022e+03	1.402359e+01	1.402359e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=0.5]
+ScaledBy=1.04509083307990364e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282568e+03	5.725193e+00	5.725193e+00
+0.000000e+00	1.000000e+00	7.525234e+03	1.385658e+01	1.385658e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=_2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=_2.0]
+ScaledBy=1.04511168048766733e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.280297e+03	5.756958e+00	5.756958e+00
+0.000000e+00	1.000000e+00	7.521084e+03	1.389502e+01	1.389502e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=2.0]
+ScaledBy=1.04509584317189625e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.283814e+03	5.703173e+00	5.703173e+00
+0.000000e+00	1.000000e+00	7.524357e+03	1.379735e+01	1.379735e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=2.0]
+ScaledBy=1.04509009862425950e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.283260e+03	5.814439e+00	5.814439e+00
+0.000000e+00	1.000000e+00	7.519732e+03	1.402207e+01	1.402207e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=0.5]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=0.5]
+ScaledBy=1.04514673433629121e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.285835e+03	5.833682e+00	5.833682e+00
+0.000000e+00	1.000000e+00	7.522458e+03	1.404797e+01	1.404797e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=_2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=_2.0]
+ScaledBy=1.04510311046460288e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.281968e+03	5.716063e+00	5.716063e+00
+0.000000e+00	1.000000e+00	7.521659e+03	1.381945e+01	1.381945e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=2.0]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=2.0]
+ScaledBy=1.04506909039979114e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.311258e+03	5.823287e+00	5.823287e+00
+0.000000e+00	1.000000e+00	7.551703e+03	1.388999e+01	1.388999e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[Baseline]
+ErrorBars=1
+LineColor=blue!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS[Baseline]
+ScaledBy=1.04503291873250322e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.279133e+03	5.791924e+00	5.791924e+00
+0.000000e+00	1.000000e+00	7.521202e+03	1.402329e+01	1.402329e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To50.yoda.gz/MC_XS:ENERGY=13000/pmXS
+ScaledBy=1.04509359630190903e-06
+Title=ZpT0To50
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	1.282682e+03	5.693335e+00	5.693335e+00
+0.000000e+00	1.000000e+00	7.523216e+03	1.378824e+01	1.378824e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.414119e+03	9.120390e+00	9.120390e+00
+0.000000e+00	1.000000e+00	1.024454e+04	1.767255e+01	1.767255e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.412612e+03	9.110263e+00	9.110263e+00
+0.000000e+00	1.000000e+00	1.024067e+04	1.765713e+01	1.765713e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=_2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=_2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.412311e+03	9.108368e+00	9.108368e+00
+0.000000e+00	1.000000e+00	1.023978e+04	1.765443e+01	1.765443e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.406219e+03	9.553409e+00	9.553409e+00
+0.000000e+00	1.000000e+00	1.021544e+04	1.850228e+01	1.850228e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.412007e+03	9.108573e+00	9.108573e+00
+0.000000e+00	1.000000e+00	1.023912e+04	1.765462e+01	1.765462e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.414811e+03	9.358459e+00	9.358459e+00
+0.000000e+00	1.000000e+00	1.024778e+04	1.812883e+01	1.812883e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=_2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=_2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.411457e+03	9.105536e+00	9.105536e+00
+0.000000e+00	1.000000e+00	1.023391e+04	1.764678e+01	1.764678e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.412417e+03	9.108815e+00	9.108815e+00
+0.000000e+00	1.000000e+00	1.024022e+04	1.765513e+01	1.765513e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=4.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=4.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.407508e+03	1.091502e+01	1.091502e+01
+0.000000e+00	1.000000e+00	1.021668e+04	2.106192e+01	2.106192e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.505808e+03	7.608385e+01	7.608385e+01
+0.000000e+00	1.000000e+00	1.029394e+04	2.339251e+02	2.339251e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=1.414]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=1.414]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.406401e+03	1.220468e+01	1.220468e+01
+0.000000e+00	1.000000e+00	1.019181e+04	2.342342e+01	2.342342e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.707]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.707]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.419221e+03	9.426206e+00	9.426206e+00
+0.000000e+00	1.000000e+00	1.026051e+04	1.824386e+01	1.824386e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.425529e+03	1.011930e+01	1.011930e+01
+0.000000e+00	1.000000e+00	1.027878e+04	1.955292e+01	1.955292e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.25]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.25]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.434539e+03	1.230198e+01	1.230198e+01
+0.000000e+00	1.000000e+00	1.030830e+04	2.378256e+01	2.378256e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.409657e+03	9.838294e+00	9.838294e+00
+0.000000e+00	1.000000e+00	1.023035e+04	1.904213e+01	1.904213e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.415419e+03	9.228051e+00	9.228051e+00
+0.000000e+00	1.000000e+00	1.025317e+04	1.788414e+01	1.788414e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=_2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=_2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.408330e+03	9.111150e+00	9.111150e+00
+0.000000e+00	1.000000e+00	1.020768e+04	1.765192e+01	1.765192e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.413282e+03	9.113609e+00	9.113609e+00
+0.000000e+00	1.000000e+00	1.024568e+04	1.766758e+01	1.766758e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.407528e+03	9.304312e+00	9.304312e+00
+0.000000e+00	1.000000e+00	1.022191e+04	1.806830e+01	1.806830e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.419125e+03	9.699331e+00	9.699331e+00
+0.000000e+00	1.000000e+00	1.025748e+04	1.875454e+01	1.875454e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=_2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=_2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.410632e+03	9.104516e+00	9.104516e+00
+0.000000e+00	1.000000e+00	1.023547e+04	1.765165e+01	1.765165e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.416048e+03	9.144274e+00	9.144274e+00
+0.000000e+00	1.000000e+00	1.027052e+04	1.777336e+01	1.777336e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.417102e+03	9.187086e+00	9.187086e+00
+0.000000e+00	1.000000e+00	1.024562e+04	1.773007e+01	1.773007e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.412547e+03	9.112659e+00	9.112659e+00
+0.000000e+00	1.000000e+00	1.024004e+04	1.765894e+01	1.765894e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=_2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=_2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.412500e+03	9.110520e+00	9.110520e+00
+0.000000e+00	1.000000e+00	1.023986e+04	1.765568e+01	1.765568e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.406219e+03	9.553409e+00	9.553409e+00
+0.000000e+00	1.000000e+00	1.021544e+04	1.850228e+01	1.850228e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.412105e+03	9.119686e+00	9.119686e+00
+0.000000e+00	1.000000e+00	1.024008e+04	1.767059e+01	1.767059e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.414626e+03	9.180934e+00	9.180934e+00
+0.000000e+00	1.000000e+00	1.024384e+04	1.776663e+01	1.776663e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=_2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=_2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.410474e+03	9.115889e+00	9.115889e+00
+0.000000e+00	1.000000e+00	1.023577e+04	1.766286e+01	1.766286e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.412223e+03	9.109241e+00	9.109241e+00
+0.000000e+00	1.000000e+00	1.024010e+04	1.765604e+01	1.765604e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=4.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=4.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.402848e+03	1.016485e+01	1.016485e+01
+0.000000e+00	1.000000e+00	1.024039e+04	1.937380e+01	1.937380e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.371489e+03	2.780187e+01	2.780187e+01
+0.000000e+00	1.000000e+00	1.011291e+04	4.567420e+01	4.567420e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=1.414]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=1.414]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.401846e+03	1.079053e+01	1.079053e+01
+0.000000e+00	1.000000e+00	1.022976e+04	2.024492e+01	2.024492e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.707]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.707]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.416975e+03	9.250457e+00	9.250457e+00
+0.000000e+00	1.000000e+00	1.024399e+04	1.786218e+01	1.786218e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.420880e+03	9.533847e+00	9.533847e+00
+0.000000e+00	1.000000e+00	1.024823e+04	1.829358e+01	1.829358e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.25]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.25]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.427814e+03	1.024485e+01	1.024485e+01
+0.000000e+00	1.000000e+00	1.025656e+04	1.935180e+01	1.935180e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.409519e+03	9.336198e+00	9.336198e+00
+0.000000e+00	1.000000e+00	1.023314e+04	1.802674e+01	1.802674e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.411403e+03	9.170152e+00	9.170152e+00
+0.000000e+00	1.000000e+00	1.024080e+04	1.775668e+01	1.775668e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=_2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=_2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.408640e+03	9.292301e+00	9.292301e+00
+0.000000e+00	1.000000e+00	1.024029e+04	1.789097e+01	1.789097e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.414447e+03	9.129545e+00	9.129545e+00
+0.000000e+00	1.000000e+00	1.024438e+04	1.768109e+01	1.768109e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.414505e+03	9.351840e+00	9.351840e+00
+0.000000e+00	1.000000e+00	1.023965e+04	1.802996e+01	1.802996e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=0.5]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=0.5]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.419425e+03	9.387826e+00	9.387826e+00
+0.000000e+00	1.000000e+00	1.024333e+04	1.806619e+01	1.806619e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=_2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=_2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.408272e+03	9.156226e+00	9.156226e+00
+0.000000e+00	1.000000e+00	1.023490e+04	1.771401e+01	1.771401e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=2.0]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=2.0]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.473556e+03	9.393366e+00	9.393366e+00
+0.000000e+00	1.000000e+00	1.029818e+04	1.787258e+01	1.787258e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[Baseline]
+ErrorBars=1
+LineColor=green!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS[Baseline]
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.407051e+03	9.322385e+00	9.322385e+00
+0.000000e+00	1.000000e+00	1.023604e+04	1.801631e+01	1.801631e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To100.yoda.gz/MC_XS:ENERGY=13000/pmXS
+Title=ZpT0To100
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.412364e+03	9.108564e+00	9.108564e+00
+0.000000e+00	1.000000e+00	1.024000e+04	1.765470e+01	1.765470e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.593620e+03	9.156639e+00	9.156639e+00
+0.000000e+00	1.000000e+00	1.066829e+04	1.771676e+01	1.771676e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.591897e+03	9.146440e+00	9.146440e+00
+0.000000e+00	1.000000e+00	1.066380e+04	1.770121e+01	1.770121e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=_2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=_2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.591577e+03	9.144540e+00	9.144540e+00
+0.000000e+00	1.000000e+00	1.066286e+04	1.769850e+01	1.769850e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_x2xg_cns=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.584324e+03	9.590898e+00	9.590898e+00
+0.000000e+00	1.000000e+00	1.063641e+04	1.854822e+01	1.854822e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.591262e+03	9.144750e+00	9.144750e+00
+0.000000e+00	1.000000e+00	1.066217e+04	1.769870e+01	1.769870e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.594614e+03	9.395769e+00	9.395769e+00
+0.000000e+00	1.000000e+00	1.067259e+04	1.817439e+01	1.817439e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=_2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=_2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.590615e+03	9.141683e+00	9.141683e+00
+0.000000e+00	1.000000e+00	1.065666e+04	1.769082e+01	1.769082e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_q2qg_cns=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.591695e+03	9.144990e+00	9.144990e+00
+0.000000e+00	1.000000e+00	1.066332e+04	1.769921e+01	1.769921e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=4.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=4.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.584993e+03	1.095705e+01	1.095705e+01
+0.000000e+00	1.000000e+00	1.063833e+04	2.111487e+01	2.111487e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.675620e+03	7.620190e+01	7.620190e+01
+0.000000e+00	1.000000e+00	1.070888e+04	2.340396e+02	2.340396e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=1.414]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=1.414]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.582990e+03	1.224966e+01	1.224966e+01
+0.000000e+00	1.000000e+00	1.061079e+04	2.348043e+01	2.348043e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.707]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.707]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.599308e+03	9.463632e+00	9.463632e+00
+0.000000e+00	1.000000e+00	1.068558e+04	1.828959e+01	1.828959e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.606240e+03	1.015931e+01	1.015931e+01
+0.000000e+00	1.000000e+00	1.070573e+04	1.960219e+01	1.960219e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.25]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_murfac=0.25]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.616023e+03	1.234991e+01	1.234991e+01
+0.000000e+00	1.000000e+00	1.073843e+04	2.384329e+01	2.384329e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.588289e+03	9.877184e+00	9.877184e+00
+0.000000e+00	1.000000e+00	1.065079e+04	1.908928e+01	1.908928e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.594846e+03	9.264428e+00	9.264428e+00
+0.000000e+00	1.000000e+00	1.067675e+04	1.792853e+01	1.792853e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=_2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=_2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.587373e+03	9.147328e+00	9.147328e+00
+0.000000e+00	1.000000e+00	1.063006e+04	1.769599e+01	1.769599e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2qq_cns=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.592658e+03	9.149811e+00	9.149811e+00
+0.000000e+00	1.000000e+00	1.066909e+04	1.771171e+01	1.771171e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.586601e+03	9.341028e+00	9.341028e+00
+0.000000e+00	1.000000e+00	1.064464e+04	1.811302e+01	1.811302e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.599221e+03	9.737842e+00	9.737842e+00
+0.000000e+00	1.000000e+00	1.068206e+04	1.880160e+01	1.880160e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=_2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=_2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.589677e+03	9.140644e+00	9.140644e+00
+0.000000e+00	1.000000e+00	1.065791e+04	1.769564e+01	1.769564e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[isr_g2gg_cns=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.595532e+03	9.180551e+00	9.180551e+00
+0.000000e+00	1.000000e+00	1.069422e+04	1.781748e+01	1.781748e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.596809e+03	9.223868e+00	9.223868e+00
+0.000000e+00	1.000000e+00	1.066942e+04	1.777481e+01	1.777481e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.591862e+03	9.148873e+00	9.148873e+00
+0.000000e+00	1.000000e+00	1.066313e+04	1.770304e+01	1.770304e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=_2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=_2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.591760e+03	9.146693e+00	9.146693e+00
+0.000000e+00	1.000000e+00	1.066294e+04	1.769976e+01	1.769976e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_x2xg_cns=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.584324e+03	9.590898e+00	9.590898e+00
+0.000000e+00	1.000000e+00	1.063641e+04	1.854822e+01	1.854822e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.591307e+03	9.155916e+00	9.155916e+00
+0.000000e+00	1.000000e+00	1.066318e+04	1.771478e+01	1.771478e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.593980e+03	9.217542e+00	9.217542e+00
+0.000000e+00	1.000000e+00	1.066761e+04	1.781138e+01	1.781138e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=_2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=_2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.589517e+03	9.152100e+00	9.152100e+00
+0.000000e+00	1.000000e+00	1.065810e+04	1.770693e+01	1.770693e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_q2qg_cns=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.591509e+03	9.145429e+00	9.145429e+00
+0.000000e+00	1.000000e+00	1.066320e+04	1.770014e+01	1.770014e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=4.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=4.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.582594e+03	1.020816e+01	1.020816e+01
+0.000000e+00	1.000000e+00	1.066352e+04	1.942635e+01	1.942635e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.556934e+03	2.869560e+01	2.869560e+01
+0.000000e+00	1.000000e+00	1.053501e+04	4.607776e+01	4.607776e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=1.414]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=1.414]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.581498e+03	1.083790e+01	1.083790e+01
+0.000000e+00	1.000000e+00	1.065167e+04	2.030204e+01	2.030204e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.707]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.707]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.596044e+03	9.287285e+00	9.287285e+00
+0.000000e+00	1.000000e+00	1.066750e+04	1.790732e+01	1.790732e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.599781e+03	9.572285e+00	9.572285e+00
+0.000000e+00	1.000000e+00	1.067211e+04	1.834094e+01	1.834094e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.25]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_murfac=0.25]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.606485e+03	1.028758e+01	1.028758e+01
+0.000000e+00	1.000000e+00	1.068110e+04	1.940490e+01	1.940490e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.588823e+03	9.373907e+00	9.373907e+00
+0.000000e+00	1.000000e+00	1.065511e+04	1.807243e+01	1.807243e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.590675e+03	9.206786e+00	9.206786e+00
+0.000000e+00	1.000000e+00	1.066397e+04	1.780130e+01	1.780130e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=_2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=_2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.587533e+03	9.330371e+00	9.330371e+00
+0.000000e+00	1.000000e+00	1.066251e+04	1.793688e+01	1.793688e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2qq_cns=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.593953e+03	9.165882e+00	9.165882e+00
+0.000000e+00	1.000000e+00	1.066823e+04	1.772543e+01	1.772543e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.593813e+03	9.389481e+00	9.389481e+00
+0.000000e+00	1.000000e+00	1.066252e+04	1.807572e+01	1.807572e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=0.5]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_murfac=0.5]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.598259e+03	9.425338e+00	9.425338e+00
+0.000000e+00	1.000000e+00	1.066641e+04	1.811223e+01	1.811223e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=_2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=_2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.587102e+03	9.192887e+00	9.192887e+00
+0.000000e+00	1.000000e+00	1.065729e+04	1.775861e+01	1.775861e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=2.0]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[fsr_g2gg_cns=2.0]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.659889e+03	9.432077e+00	9.432077e+00
+0.000000e+00	1.000000e+00	1.072875e+04	1.791888e+01	1.791888e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[Baseline]
+ErrorBars=1
+LineColor=orange!30
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS[Baseline]
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.586523e+03	9.360190e+00	9.360190e+00
+0.000000e+00	1.000000e+00	1.065866e+04	1.806213e+01	1.806213e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS
+ErrorBars=1
+LineColor=orange
+LineStyle=solid
+Path=//u/user/choij/tmp_0x7fe3517081c0/ZpT0To250.yoda.gz/MC_XS:ENERGY=13000/pmXS
+Title=ZpT0To250
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.000000e+00	0.000000e+00	2.591636e+03	9.144738e+00	9.144738e+00
+0.000000e+00	1.000000e+00	1.066309e+04	1.769878e+01	1.769878e+01
+# END HISTO1D
+
