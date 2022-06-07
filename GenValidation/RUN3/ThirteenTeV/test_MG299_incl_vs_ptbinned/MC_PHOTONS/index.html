@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>Plots from Rivet analyses &ndash; MC_PHOTONS</title>
+<style>
+      html { font-family: sans-serif; }
+      img { border: 0; }
+      a { text-decoration: none; font-weight: bold; }
+    </style>
+            <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [["$","$"]]}
+        });
+        </script>
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        
+
+        <script type="text/javascript">
+            function filterPlots(ana, patt) {
+                var regex = new RegExp(patt);
+                var sec = document.getElementById('ana_'+ana);
+                var plots = sec.getElementsByClassName('plot');
+                var i; for (i = 0; i < plots.length; ++i) {
+                    // var viz = (regex.test(plots[i].id)) ? 'visible' : 'hidden';
+                    // plots[i].style.visibility = viz;
+                    var dis = (regex.test(plots[i].id)) ? 'block' : 'none';
+                    plots[i].style.display = dis;
+                }
+                return false;
+           }
+        </script>
+        </head>
+<body>
+<section id="ana_MC_PHOTONS">
+<h3>MC_PHOTONS</h3>
+<p><a href="../index.html">Back to index</a></p>
+<p>
+  Observables for testing general unisolated photon properties, especially those associated with charged leptons (e and mu).
+</p>
+<form onsubmit="var patt = document.getElementById('patt_MC_PHOTONS').value; filterPlots('MC_PHOTONS', patt); return false;">
+<span>Filter plots:&nbsp;</span><input id="patt_MC_PHOTONS" type="search">
+<input type="submit" value="Filter">
+</form>
+
+  <div class="plot" id="plot_DeltaR" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-DeltaR">&#9875;</a><a href="DeltaR.dat">&#8984</a> DeltaR:<br/>
+    <a name="MC_PHOTONS-DeltaR"><a href="DeltaR.pdf">
+      <img src="DeltaR.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_DeltaR_R" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-DeltaR_R">&#9875;</a><a href="DeltaR_R.dat">&#8984</a> DeltaR_R:<br/>
+    <a name="MC_PHOTONS-DeltaR_R"><a href="DeltaR_R.pdf">
+      <img src="DeltaR_R.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_DeltaR_R_ptweighted" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-DeltaR_R_ptweighted">&#9875;</a><a href="DeltaR_R_ptweighted.dat">&#8984</a> DeltaR_R_ptweighted:<br/>
+    <a name="MC_PHOTONS-DeltaR_R_ptweighted"><a href="DeltaR_R_ptweighted.pdf">
+      <img src="DeltaR_R_ptweighted.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_DeltaR_R_ptweighted_vs_pTlep" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-DeltaR_R_ptweighted_vs_pTlep">&#9875;</a><a href="DeltaR_R_ptweighted_vs_pTlep.dat">&#8984</a> DeltaR_R_ptweighted_vs_pTlep:<br/>
+    <a name="MC_PHOTONS-DeltaR_R_ptweighted_vs_pTlep"><a href="DeltaR_R_ptweighted_vs_pTlep.pdf">
+      <img src="DeltaR_R_ptweighted_vs_pTlep.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_DeltaR_R_vs_pTlep" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-DeltaR_R_vs_pTlep">&#9875;</a><a href="DeltaR_R_vs_pTlep.dat">&#8984</a> DeltaR_R_vs_pTlep:<br/>
+    <a name="MC_PHOTONS-DeltaR_R_vs_pTlep"><a href="DeltaR_R_vs_pTlep.pdf">
+      <img src="DeltaR_R_vs_pTlep.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_DeltaR_ptweighted" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-DeltaR_ptweighted">&#9875;</a><a href="DeltaR_ptweighted.dat">&#8984</a> DeltaR_ptweighted:<br/>
+    <a name="MC_PHOTONS-DeltaR_ptweighted"><a href="DeltaR_ptweighted.pdf">
+      <img src="DeltaR_ptweighted.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_DeltaR_ptweighted_vs_pTlep" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-DeltaR_ptweighted_vs_pTlep">&#9875;</a><a href="DeltaR_ptweighted_vs_pTlep.dat">&#8984</a> DeltaR_ptweighted_vs_pTlep:<br/>
+    <a name="MC_PHOTONS-DeltaR_ptweighted_vs_pTlep"><a href="DeltaR_ptweighted_vs_pTlep.pdf">
+      <img src="DeltaR_ptweighted_vs_pTlep.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_DeltaR_vs_pTlep" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-DeltaR_vs_pTlep">&#9875;</a><a href="DeltaR_vs_pTlep.dat">&#8984</a> DeltaR_vs_pTlep:<br/>
+    <a name="MC_PHOTONS-DeltaR_vs_pTlep"><a href="DeltaR_vs_pTlep.pdf">
+      <img src="DeltaR_vs_pTlep.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Egamma" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-Egamma">&#9875;</a><a href="Egamma.dat">&#8984</a> Egamma:<br/>
+    <a name="MC_PHOTONS-Egamma"><a href="Egamma.pdf">
+      <img src="Egamma.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Ptgamma" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-Ptgamma">&#9875;</a><a href="Ptgamma.dat">&#8984</a> Ptgamma:<br/>
+    <a name="MC_PHOTONS-Ptgamma"><a href="Ptgamma.pdf">
+      <img src="Ptgamma.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_sumEgamma" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-sumEgamma">&#9875;</a><a href="sumEgamma.dat">&#8984</a> sumEgamma:<br/>
+    <a name="MC_PHOTONS-sumEgamma"><a href="sumEgamma.pdf">
+      <img src="sumEgamma.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_sumPtGamma_vs_pTlep" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-sumPtGamma_vs_pTlep">&#9875;</a><a href="sumPtGamma_vs_pTlep.dat">&#8984</a> sumPtGamma_vs_pTlep:<br/>
+    <a name="MC_PHOTONS-sumPtGamma_vs_pTlep"><a href="sumPtGamma_vs_pTlep.pdf">
+      <img src="sumPtGamma_vs_pTlep.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_sumPtgamma" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_PHOTONS-sumPtgamma">&#9875;</a><a href="sumPtgamma.dat">&#8984</a> sumPtgamma:<br/>
+    <a name="MC_PHOTONS-sumPtgamma"><a href="sumPtgamma.pdf">
+      <img src="sumPtgamma.png">
+    </a></a>
+  </div>
+</section>
+
+<footer style="clear:both; margin-top:3em; padding-top:3em">
+<p>Generated at Tuesday, 07. June 2022 03:05PM</p>
+</footer>
+
+</body>
+</html>
