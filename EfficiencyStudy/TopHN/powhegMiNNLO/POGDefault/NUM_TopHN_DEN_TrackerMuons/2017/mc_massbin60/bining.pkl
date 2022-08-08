@@ -5,7 +5,7 @@ p1
 (dp3
 S'cut'
 p4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 10.000000 && probe_pt < 15.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 10.000000 && probe_pt < 15.000000)'
 p5
 sS'name'
 p6
@@ -36,7 +36,7 @@ S'; 0.000 < fabs(probe_eta) < 0.900; 10.000 < probe_pt < 15.000'
 p17
 sa(dp18
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 10.000000 && probe_pt < 15.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 10.000000 && probe_pt < 15.000000)'
 p19
 sg6
 S'bin01_fabs(probe_eta)_0p90To1p20_probe_pt_10p00To15p00'
@@ -60,7 +60,7 @@ S'; 0.900 < fabs(probe_eta) < 1.200; 10.000 < probe_pt < 15.000'
 p24
 sa(dp25
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 10.000000 && probe_pt < 15.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 10.000000 && probe_pt < 15.000000)'
 p26
 sg6
 S'bin02_fabs(probe_eta)_1p20To2p10_probe_pt_10p00To15p00'
@@ -84,7 +84,7 @@ S'; 1.200 < fabs(probe_eta) < 2.100; 10.000 < probe_pt < 15.000'
 p31
 sa(dp32
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 10.000000 && probe_pt < 15.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 10.000000 && probe_pt < 15.000000)'
 p33
 sg6
 S'bin03_fabs(probe_eta)_2p10To2p40_probe_pt_10p00To15p00'
@@ -108,7 +108,7 @@ S'; 2.100 < fabs(probe_eta) < 2.400; 10.000 < probe_pt < 15.000'
 p38
 sa(dp39
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 15.000000 && probe_pt < 20.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 15.000000 && probe_pt < 20.000000)'
 p40
 sg6
 S'bin04_fabs(probe_eta)_0p00To0p90_probe_pt_15p00To20p00'
@@ -132,7 +132,7 @@ S'; 0.000 < fabs(probe_eta) < 0.900; 15.000 < probe_pt < 20.000'
 p45
 sa(dp46
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 15.000000 && probe_pt < 20.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 15.000000 && probe_pt < 20.000000)'
 p47
 sg6
 S'bin05_fabs(probe_eta)_0p90To1p20_probe_pt_15p00To20p00'
@@ -156,7 +156,7 @@ S'; 0.900 < fabs(probe_eta) < 1.200; 15.000 < probe_pt < 20.000'
 p52
 sa(dp53
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 15.000000 && probe_pt < 20.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 15.000000 && probe_pt < 20.000000)'
 p54
 sg6
 S'bin06_fabs(probe_eta)_1p20To2p10_probe_pt_15p00To20p00'
@@ -180,7 +180,7 @@ S'; 1.200 < fabs(probe_eta) < 2.100; 15.000 < probe_pt < 20.000'
 p59
 sa(dp60
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 15.000000 && probe_pt < 20.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 15.000000 && probe_pt < 20.000000)'
 p61
 sg6
 S'bin07_fabs(probe_eta)_2p10To2p40_probe_pt_15p00To20p00'
@@ -204,7 +204,7 @@ S'; 2.100 < fabs(probe_eta) < 2.400; 15.000 < probe_pt < 20.000'
 p66
 sa(dp67
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 20.000000 && probe_pt < 25.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 20.000000 && probe_pt < 25.000000)'
 p68
 sg6
 S'bin08_fabs(probe_eta)_0p00To0p90_probe_pt_20p00To25p00'
@@ -228,7 +228,7 @@ S'; 0.000 < fabs(probe_eta) < 0.900; 20.000 < probe_pt < 25.000'
 p73
 sa(dp74
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 20.000000 && probe_pt < 25.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 20.000000 && probe_pt < 25.000000)'
 p75
 sg6
 S'bin09_fabs(probe_eta)_0p90To1p20_probe_pt_20p00To25p00'
@@ -252,7 +252,7 @@ S'; 0.900 < fabs(probe_eta) < 1.200; 20.000 < probe_pt < 25.000'
 p80
 sa(dp81
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 20.000000 && probe_pt < 25.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 20.000000 && probe_pt < 25.000000)'
 p82
 sg6
 S'bin10_fabs(probe_eta)_1p20To2p10_probe_pt_20p00To25p00'
@@ -276,7 +276,7 @@ S'; 1.200 < fabs(probe_eta) < 2.100; 20.000 < probe_pt < 25.000'
 p87
 sa(dp88
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 20.000000 && probe_pt < 25.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 20.000000 && probe_pt < 25.000000)'
 p89
 sg6
 S'bin11_fabs(probe_eta)_2p10To2p40_probe_pt_20p00To25p00'
@@ -300,7 +300,7 @@ S'; 2.100 < fabs(probe_eta) < 2.400; 20.000 < probe_pt < 25.000'
 p94
 sa(dp95
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 25.000000 && probe_pt < 30.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 25.000000 && probe_pt < 30.000000)'
 p96
 sg6
 S'bin12_fabs(probe_eta)_0p00To0p90_probe_pt_25p00To30p00'
@@ -324,7 +324,7 @@ S'; 0.000 < fabs(probe_eta) < 0.900; 25.000 < probe_pt < 30.000'
 p101
 sa(dp102
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 25.000000 && probe_pt < 30.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 25.000000 && probe_pt < 30.000000)'
 p103
 sg6
 S'bin13_fabs(probe_eta)_0p90To1p20_probe_pt_25p00To30p00'
@@ -348,7 +348,7 @@ S'; 0.900 < fabs(probe_eta) < 1.200; 25.000 < probe_pt < 30.000'
 p108
 sa(dp109
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 25.000000 && probe_pt < 30.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 25.000000 && probe_pt < 30.000000)'
 p110
 sg6
 S'bin14_fabs(probe_eta)_1p20To2p10_probe_pt_25p00To30p00'
@@ -372,7 +372,7 @@ S'; 1.200 < fabs(probe_eta) < 2.100; 25.000 < probe_pt < 30.000'
 p115
 sa(dp116
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 25.000000 && probe_pt < 30.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 25.000000 && probe_pt < 30.000000)'
 p117
 sg6
 S'bin15_fabs(probe_eta)_2p10To2p40_probe_pt_25p00To30p00'
@@ -396,7 +396,7 @@ S'; 2.100 < fabs(probe_eta) < 2.400; 25.000 < probe_pt < 30.000'
 p122
 sa(dp123
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 30.000000 && probe_pt < 40.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 30.000000 && probe_pt < 40.000000)'
 p124
 sg6
 S'bin16_fabs(probe_eta)_0p00To0p90_probe_pt_30p00To40p00'
@@ -420,7 +420,7 @@ S'; 0.000 < fabs(probe_eta) < 0.900; 30.000 < probe_pt < 40.000'
 p129
 sa(dp130
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 30.000000 && probe_pt < 40.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 30.000000 && probe_pt < 40.000000)'
 p131
 sg6
 S'bin17_fabs(probe_eta)_0p90To1p20_probe_pt_30p00To40p00'
@@ -444,7 +444,7 @@ S'; 0.900 < fabs(probe_eta) < 1.200; 30.000 < probe_pt < 40.000'
 p136
 sa(dp137
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 30.000000 && probe_pt < 40.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 30.000000 && probe_pt < 40.000000)'
 p138
 sg6
 S'bin18_fabs(probe_eta)_1p20To2p10_probe_pt_30p00To40p00'
@@ -468,7 +468,7 @@ S'; 1.200 < fabs(probe_eta) < 2.100; 30.000 < probe_pt < 40.000'
 p143
 sa(dp144
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 30.000000 && probe_pt < 40.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 30.000000 && probe_pt < 40.000000)'
 p145
 sg6
 S'bin19_fabs(probe_eta)_2p10To2p40_probe_pt_30p00To40p00'
@@ -492,7 +492,7 @@ S'; 2.100 < fabs(probe_eta) < 2.400; 30.000 < probe_pt < 40.000'
 p150
 sa(dp151
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 40.000000 && probe_pt < 50.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 40.000000 && probe_pt < 50.000000)'
 p152
 sg6
 S'bin20_fabs(probe_eta)_0p00To0p90_probe_pt_40p00To50p00'
@@ -516,7 +516,7 @@ S'; 0.000 < fabs(probe_eta) < 0.900; 40.000 < probe_pt < 50.000'
 p157
 sa(dp158
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 40.000000 && probe_pt < 50.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 40.000000 && probe_pt < 50.000000)'
 p159
 sg6
 S'bin21_fabs(probe_eta)_0p90To1p20_probe_pt_40p00To50p00'
@@ -540,7 +540,7 @@ S'; 0.900 < fabs(probe_eta) < 1.200; 40.000 < probe_pt < 50.000'
 p164
 sa(dp165
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 40.000000 && probe_pt < 50.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 40.000000 && probe_pt < 50.000000)'
 p166
 sg6
 S'bin22_fabs(probe_eta)_1p20To2p10_probe_pt_40p00To50p00'
@@ -564,7 +564,7 @@ S'; 1.200 < fabs(probe_eta) < 2.100; 40.000 < probe_pt < 50.000'
 p171
 sa(dp172
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 40.000000 && probe_pt < 50.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 40.000000 && probe_pt < 50.000000)'
 p173
 sg6
 S'bin23_fabs(probe_eta)_2p10To2p40_probe_pt_40p00To50p00'
@@ -588,7 +588,7 @@ S'; 2.100 < fabs(probe_eta) < 2.400; 40.000 < probe_pt < 50.000'
 p178
 sa(dp179
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 50.000000 && probe_pt < 60.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 50.000000 && probe_pt < 60.000000)'
 p180
 sg6
 S'bin24_fabs(probe_eta)_0p00To0p90_probe_pt_50p00To60p00'
@@ -612,7 +612,7 @@ S'; 0.000 < fabs(probe_eta) < 0.900; 50.000 < probe_pt < 60.000'
 p185
 sa(dp186
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 50.000000 && probe_pt < 60.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 50.000000 && probe_pt < 60.000000)'
 p187
 sg6
 S'bin25_fabs(probe_eta)_0p90To1p20_probe_pt_50p00To60p00'
@@ -636,7 +636,7 @@ S'; 0.900 < fabs(probe_eta) < 1.200; 50.000 < probe_pt < 60.000'
 p192
 sa(dp193
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 50.000000 && probe_pt < 60.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 50.000000 && probe_pt < 60.000000)'
 p194
 sg6
 S'bin26_fabs(probe_eta)_1p20To2p10_probe_pt_50p00To60p00'
@@ -660,7 +660,7 @@ S'; 1.200 < fabs(probe_eta) < 2.100; 50.000 < probe_pt < 60.000'
 p199
 sa(dp200
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 50.000000 && probe_pt < 60.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 50.000000 && probe_pt < 60.000000)'
 p201
 sg6
 S'bin27_fabs(probe_eta)_2p10To2p40_probe_pt_50p00To60p00'
@@ -684,7 +684,7 @@ S'; 2.100 < fabs(probe_eta) < 2.400; 50.000 < probe_pt < 60.000'
 p206
 sa(dp207
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 60.000000 && probe_pt < 120.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 60.000000 && probe_pt < 120.000000)'
 p208
 sg6
 S'bin28_fabs(probe_eta)_0p00To0p90_probe_pt_60p00To120p00'
@@ -708,7 +708,7 @@ S'; 0.000 < fabs(probe_eta) < 0.900; 60.000 < probe_pt < 120.000'
 p213
 sa(dp214
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 60.000000 && probe_pt < 120.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 60.000000 && probe_pt < 120.000000)'
 p215
 sg6
 S'bin29_fabs(probe_eta)_0p90To1p20_probe_pt_60p00To120p00'
@@ -732,7 +732,7 @@ S'; 0.900 < fabs(probe_eta) < 1.200; 60.000 < probe_pt < 120.000'
 p220
 sa(dp221
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 60.000000 && probe_pt < 120.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 60.000000 && probe_pt < 120.000000)'
 p222
 sg6
 S'bin30_fabs(probe_eta)_1p20To2p10_probe_pt_60p00To120p00'
@@ -756,7 +756,7 @@ S'; 1.200 < fabs(probe_eta) < 2.100; 60.000 < probe_pt < 120.000'
 p227
 sa(dp228
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 60.000000 && probe_pt < 120.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 60.000000 && probe_pt < 120.000000)'
 p229
 sg6
 S'bin31_fabs(probe_eta)_2p10To2p40_probe_pt_60p00To120p00'
@@ -780,7 +780,7 @@ S'; 2.100 < fabs(probe_eta) < 2.400; 60.000 < probe_pt < 120.000'
 p234
 sa(dp235
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 120.000000 && probe_pt < 200.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.000000 && fabs(probe_eta) < 0.900000) * (probe_pt >= 120.000000 && probe_pt < 200.000000)'
 p236
 sg6
 S'bin32_fabs(probe_eta)_0p00To0p90_probe_pt_120p00To200p00'
@@ -804,7 +804,7 @@ S'; 0.000 < fabs(probe_eta) < 0.900; 120.000 < probe_pt < 200.000'
 p241
 sa(dp242
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 120.000000 && probe_pt < 200.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 0.900000 && fabs(probe_eta) < 1.200000) * (probe_pt >= 120.000000 && probe_pt < 200.000000)'
 p243
 sg6
 S'bin33_fabs(probe_eta)_0p90To1p20_probe_pt_120p00To200p00'
@@ -828,7 +828,7 @@ S'; 0.900 < fabs(probe_eta) < 1.200; 120.000 < probe_pt < 200.000'
 p248
 sa(dp249
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 120.000000 && probe_pt < 200.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 1.200000 && fabs(probe_eta) < 2.100000) * (probe_pt >= 120.000000 && probe_pt < 200.000000)'
 p250
 sg6
 S'bin34_fabs(probe_eta)_1p20To2p10_probe_pt_120p00To200p00'
@@ -852,7 +852,7 @@ S'; 1.200 < fabs(probe_eta) < 2.100; 120.000 < probe_pt < 200.000'
 p255
 sa(dp256
 g4
-S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 120.000000 && probe_pt < 200.000000)'
+S'(probe_isTracker && tag_HLT_IsoMu27_v==1 && tag_pt > 29 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.2 && tag_isTight && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3 && pair_probeMultiplicity == 1)*(genWeight) * (fabs(probe_eta) >= 2.100000 && fabs(probe_eta) < 2.400000) * (probe_pt >= 120.000000 && probe_pt < 200.000000)'
 p257
 sg6
 S'bin35_fabs(probe_eta)_2p10To2p40_probe_pt_120p00To200p00'
