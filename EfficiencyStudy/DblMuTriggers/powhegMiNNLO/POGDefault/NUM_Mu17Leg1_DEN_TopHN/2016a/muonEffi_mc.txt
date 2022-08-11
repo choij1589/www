@@ -38,8 +38,8 @@ ibin	Central	Staterr	Systerr	Totalerr  [MassRange]	[MassBin]	[TagIso]	[AltSig]  
 36	0.9528 	0.0000 	0.0002	0.0002	+0.0000	+0.0001	+0.0001	+0.0000	+0.0000	-0.0002	+0.0000	    
 37	0.9838 	0.0000 	0.0002	0.0002	-0.0001	-0.0002	+0.0000	+0.0001	+0.0000	+0.0000	-0.0001	    
 38	0.9667 	0.0000 	0.0005	0.0005	-0.0001	-0.0002	+0.0004	+0.0000	+0.0000	-0.0001	+0.0000	    
-39	0.9531 	0.0000 	0.0024	0.0024	+0.0006	+0.0002	-0.0002	-0.0001	-0.0004	+0.0002	+0.0023	    
-Average	error:	0.000000 (stat)	0.000622 (syst)	0.000622 (total)
+39	0.9563 	0.0000 	0.0021	0.0021	+0.0018	-0.0003	-0.0004	-0.0001	-0.0002	+0.0002	-0.0009	    
+Average	error:	0.000000 (stat)	0.000614 (syst)	0.000614 (total)
 
 TnP Configurations 
 Event Selection(Data) : ( (probe_isMedium && probe_miniIso_rhoAll < 0.1 && probe_iso03_sumPt/probe_pt < 0.4 && ( (probe_3DIPerrVTX > 0 && probe_3DIPVTX/probe_3DIPerrVTX < 3) || probe_3DIPerrVTX == 0) ) && tag_isTight && tag_HLT_IsoMu24_v==1 && tag_pt > 26 && fabs(tag_eta) < 2.4 && (tag_pfIso04_charged + max(0, tag_pfIso04_neutral+tag_pfIso04_photon-(0.5*tag_pfIso04_sumPU)))/tag_pt < 0.15 && 60 < pair_mass && pair_mass < 140 && pair_dR > 0.3) 
