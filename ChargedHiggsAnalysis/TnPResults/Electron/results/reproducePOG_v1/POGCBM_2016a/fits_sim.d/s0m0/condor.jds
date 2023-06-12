@@ -1,0 +1,20 @@
+executable = /data6/Users/choij/tnp_tamsa/results/reproducePOG_v1/POGCBM_2016a/fits_sim.d/s0m0/run.sh
+arguments = $(Process)
+output = /data6/Users/choij/tnp_tamsa/results/reproducePOG_v1/POGCBM_2016a/fits_sim.d/s0m0/job$(Process).out
+error = /data6/Users/choij/tnp_tamsa/results/reproducePOG_v1/POGCBM_2016a/fits_sim.d/s0m0/job$(Process).err
+log = /data6/Users/choij/tnp_tamsa/results/reproducePOG_v1/POGCBM_2016a/fits_sim.d/s0m0/condor.log
+concurrency_limits = n300.choij
+jobbatchname = reproducePOG_v1_POGCBM_2016a_fits_sim_s0m0
+getenv = True
+queue arguments from (
+0,10,20,30,40
+1,11,21,31,41
+2,12,22,32,42
+3,13,23,33,43
+4,14,24,34,44
+5,15,25,35,45
+6,16,26,36,46
+7,17,27,37,47
+8,18,28,38,48
+9,19,29,39,49
+)

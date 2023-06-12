@@ -1,0 +1,10 @@
+executable = /data6/Users/choij/tnp_tamsa/results/ele_TopHNT_v1/HLTEl12_2016b/hists_sim.d/run.sh
+arguments = $(Process)
+output = /data6/Users/choij/tnp_tamsa/results/ele_TopHNT_v1/HLTEl12_2016b/hists_sim.d/job$(Process).out
+error = /data6/Users/choij/tnp_tamsa/results/ele_TopHNT_v1/HLTEl12_2016b/hists_sim.d/job$(Process).err
+log = /data6/Users/choij/tnp_tamsa/results/ele_TopHNT_v1/HLTEl12_2016b/hists_sim.d/condor.log
+request_memory = 1500
+concurrency_limits = n300.choij
+jobbatchname = ele_TopHNT_v1_HLTEl12_2016b_hists_sim
+getenv = True
+queue 100
