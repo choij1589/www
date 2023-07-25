@@ -1,0 +1,20 @@
+executable = /data6/Users/choij/tnp_tamsa/results/TopHNT_Muon_v0/NUM_TopHNT_DEN_TrackerMuons_2018/fits_sim.d/s2m1/run.sh
+arguments = $(Process)
+output = /data6/Users/choij/tnp_tamsa/results/TopHNT_Muon_v0/NUM_TopHNT_DEN_TrackerMuons_2018/fits_sim.d/s2m1/job$(Process).out
+error = /data6/Users/choij/tnp_tamsa/results/TopHNT_Muon_v0/NUM_TopHNT_DEN_TrackerMuons_2018/fits_sim.d/s2m1/job$(Process).err
+log = /data6/Users/choij/tnp_tamsa/results/TopHNT_Muon_v0/NUM_TopHNT_DEN_TrackerMuons_2018/fits_sim.d/s2m1/condor.log
+concurrency_limits = n300.choij
+jobbatchname = TopHNT_Muon_v0_NUM_TopHNT_DEN_TrackerMuons_2018_fits_sim_s2m1
+getenv = True
+queue arguments from (
+0,10,20,30
+1,11,21,31
+2,12,22,32
+3,13,23,33
+4,14,24,34
+5,15,25,35
+6,16,26
+7,17,27
+8,18,28
+9,19,29
+)

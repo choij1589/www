@@ -1,0 +1,13 @@
+ROOT::Math::Fitter::CalculateHessErrors:0: RuntimeWarning: Error when calculating Hessian
+ROOT::Math::Fitter::CalculateHessErrors:0: RuntimeWarning: Error when calculating Hessian
+ROOT::Math::Fitter::CalculateHessErrors:0: RuntimeWarning: Error when calculating Hessian
+ROOT::Math::Fitter::CalculateHessErrors:0: RuntimeWarning: Error when calculating Hessian
+ROOT::Math::Fitter::CalculateHessErrors:0: RuntimeWarning: Error when calculating Hessian
+ROOT::Math::Fitter::CalculateHessErrors:0: RuntimeWarning: Error when calculating Hessian
+ROOT::Math::Fitter::CalculateHessErrors:0: RuntimeWarning: Error when calculating Hessian
+Traceback (most recent call last):
+  File "tnp_tamsa.py", line 197, in <module>
+    fitter.run(ibin)
+  File "/data6/Users/choij/tnp_tamsa/python/fitUtils.py", line 180, in run
+    fit_errp*=(histPass.Integral()/histPass.GetEffectiveEntries())**0.5
+ZeroDivisionError: float division by zero

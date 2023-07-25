@@ -1,0 +1,42 @@
+name = s0m0
+path = /data6/Users/choij/tnp_tamsa/results/TopHNT_Muon_v0/NUM_TopHNT_DEN_TrackerMuons_2018
+data = /gv0/Users/jbhyun/TagAndProbe/muon/Z/v220707/Run2018_UL/SingleMuon
+sim = /gv0/Users/jbhyun/TagAndProbe/muon/Z/v220707/Run2018_UL/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8
+sim_weight = genWeight
+sim_genmatching = tag_isMatchedGen && probe_isMatchedGen
+sim_genmass = genMass
+tree = muon/Events
+mass = pair_mass
+vars = ['abs(probe_eta)', 'probe_pt']
+nbins = 36
+expr = probe_isTracker && abs(probe_dxy) < 0.2 && abs(probe_dz) < 0.5 && tag_isTight && tag_pt > 26. && tag_HLT_IsoMu24_v == 1 && pair_probeMultiplicity == 1 && (tag_pfIso04_charged+max(0,tag_pfIso04_neutral+tag_pfIso04_photon-0.5*tag_pfIso04_sumPU) < 0.2*tag_pt)
+test = probe_CutBasedIdMedium && abs(probe_dz) < 0.1 && (probe_3DIPerrVTX != 0 && abs(probe_3DIPVTX) < 3.*probe_3DIPerrVTX) && probe_iso03_sumPt < 0.4*probe_pt && (probe_miniIso_rhoAll < 0.1)
+data_hist_file = hists_data.root
+sim_hist_file = hists_sim.root
+hist_prefix = 
+hist_nbins = 148
+hist_range = (53, 127)
+method = fit
+data_fit_file = fits_data.root
+sim_fit_file = fits_sim.root
+fit_parameter = 
+  HistPdf::sigPhysPass(x,histPass_genmatching,2)
+  HistPdf::sigPhysFail(x,histFail_genmatching,2)
+  Gaussian::sigResPass(x,meanGaussP[0.0,-5.0,5.0],sigmaP[0.02,0.02,4.0])
+  Gaussian::sigResFail(x,meanGaussF[0.0,-5.0,5.0],sigmaF[0.02,0.02,4.0])
+  FCONV::sigPass(x, sigPhysPass , sigResPass)
+  FCONV::sigFail(x, sigPhysFail , sigResFail)
+  RooCMSShape::bkgPass(x, aCMSP[50.,40.,80.],bCMSP[0.1, 0.01,0.25],cCMSP[0.05, 0.0001,0.2],peakCMSP[90.0])
+  RooCMSShape::bkgFail(x, aCMSF[50.,40.,80.],bCMSF[0.1, 0.01,0.25],cCMSF[0.05, 0.0001,0.2],peakCMSF[90.0])
+fit_range = (60, 120)
+systematic = 
+  [{'fit_parameter': ['HistPdf::sigPhysPass(x,histPass_genmatching_genmass,2)', 'HistPdf::sigPhysFail(x,histFail_genmatching_genmass,2)', 'Gaussian::sigResPass(x,meanGaussP[0.0,-5.0,5.0],sigmaP[0.02,0.02,4.0])', 'Gaussian::sigResFail(x,meanGaussF[0.0,-5.0,5.0],sigmaF[0.02,0.02,4.0])', 'FCONV::sigPass(x, sigPhysPass , sigResPass)', 'FCONV::sigFail(x, sigPhysFail , sigResFail)', 'RooCMSShape::bkgPass(x, aCMSP[50.,40.,80.],bCMSP[0.1, 0.01,0.25],cCMSP[0.05,0.0001,0.2],peakCMSP[90.0])', 'RooCMSShape::bkgFail(x, aCMSF[50.,40.,80.],bCMSF[0.1, 0.01,0.25],cCMSF[0.05,0.0001,0.2],peakCMSF[90.0])'], 'title': 'altsig'}]
+  [{'expr': 'probe_isTracker && abs(probe_dxy) < 0.2 && abs(probe_dz) < 0.5 && tag_isTight && tag_pt > 26. && tag_HLT_IsoMu24_v == 1 && pair_probeMultiplicity == 1 && (tag_pfIso04_charged+max(0,tag_pfIso04_neutral+tag_pfIso04_photon-0.5*tag_pfIso04_sumPU) < 0.3*tag_pt)', 'title': 'tagIso0p3'}, {'expr': 'probe_isTracker && abs(probe_dxy) < 0.2 && abs(probe_dz) < 0.5 && tag_isTight && tag_pt > 26. && tag_HLT_IsoMu24_v == 1 && pair_probeMultiplicity == 1 && (tag_pfIso04_charged+max(0,tag_pfIso04_neutral+tag_pfIso04_photon-0.5*tag_pfIso04_sumPU) < 0.1*tag_pt)', 'title': 'tagIso0p1'}]
+  [{'hist_nbins': 296, 'title': 'massbinmore'}, {'hist_nbins': 74, 'title': 'massbinless'}]
+  [{'fit_range': (63, 123), 'title': 'fitwindowup'}, {'fit_range': (57, 117), 'title': 'fitwindowdown'}]
+axes = [{'var': 'abs(probe_eta)', 'type': 'float', 'bins': [0.0, 0.9, 1.2, 2.1, 2.4], 'title': '|#eta|'}, {'var': 'probe_pt', 'type': 'float', 'bins': [10, 15, 20, 25, 30, 40, 50, 60, 120, 200], 'title': 'p_{T} [GeV]'}]
+option = 
+sim_maxweight = 100000.0
+systemtaics = [[{'fit_parameter': ['HistPdf::sigPhysPass(x,histPass_genmatching_genmass,2)', 'HistPdf::sigPhysFail(x,histFail_genmatching_genmass,2)', 'Gaussian::sigResPass(x,meanGaussP[0.0,-5.0,5.0],sigmaP[0.02,0.02,4.0])', 'Gaussian::sigResFail(x,meanGaussF[0.0,-5.0,5.0],sigmaF[0.02,0.02,4.0])', 'FCONV::sigPass(x, sigPhysPass , sigResPass)', 'FCONV::sigFail(x, sigPhysFail , sigResFail)', 'RooCMSShape::bkgPass(x, aCMSP[50.,40.,80.],bCMSP[0.1, 0.01,0.25],cCMSP[0.05,0.0001,0.2],peakCMSP[90.0])', 'RooCMSShape::bkgFail(x, aCMSF[50.,40.,80.],bCMSF[0.1, 0.01,0.25],cCMSF[0.05,0.0001,0.2],peakCMSF[90.0])'], 'title': 'altsig'}], [{'expr': 'probe_isTracker && abs(probe_dxy) < 0.2 && abs(probe_dz) < 0.5 && tag_isTight && tag_pt > 26. && tag_HLT_IsoMu24_v == 1 && pair_probeMultiplicity == 1 && (tag_pfIso04_charged+max(0,tag_pfIso04_neutral+tag_pfIso04_photon-0.5*tag_pfIso04_sumPU) < 0.3*tag_pt)', 'title': 'tagIso0p3'}, {'expr': 'probe_isTracker && abs(probe_dxy) < 0.2 && abs(probe_dz) < 0.5 && tag_isTight && tag_pt > 26. && tag_HLT_IsoMu24_v == 1 && pair_probeMultiplicity == 1 && (tag_pfIso04_charged+max(0,tag_pfIso04_neutral+tag_pfIso04_photon-0.5*tag_pfIso04_sumPU) < 0.1*tag_pt)', 'title': 'tagIso0p1'}], [{'hist_nbins': 296, 'title': 'massbinmore'}, {'hist_nbins': 74, 'title': 'massbinless'}], [{'fit_range': (63, 123), 'title': 'fitwindowup'}, {'fit_range': (57, 117), 'title': 'fitwindowdown'}]]
+title = stat
+vartitles = ['|#eta|', 'p_{T} [GeV]']
